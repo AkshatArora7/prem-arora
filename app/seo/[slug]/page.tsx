@@ -19,7 +19,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: p.metaDescription,
     keywords: p.keywords,
     alternates: { canonical: `/seo/${p.slug}` },
-    openGraph: { title: p.metaTitle, description: p.metaDescription, type: "article" },
+    openGraph: {
+      title: p.metaTitle,
+      description: p.metaDescription,
+      type: "article",
+      url: `${site.url}/seo/${p.slug}`,
+      siteName: site.brand,
+      locale: "en_IN",
+      authors: ["Prem Arora"],
+    },
+    twitter: { card: "summary_large_image", title: p.metaTitle, description: p.metaDescription },
+    authors: [{ name: "Prem Arora", url: site.url }],
   };
 }
 
@@ -44,10 +54,30 @@ export default async function SeoLandingPage({ params }: { params: Promise<{ slu
     ],
   };
 
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: p.h1,
+    description: p.metaDescription,
+    inLanguage: "en-IN",
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${site.url}/seo/${p.slug}` },
+    author: { "@type": "Person", name: "Prem Arora", url: site.url },
+    publisher: {
+      "@type": "Organization",
+      name: site.brand,
+      logo: { "@type": "ImageObject", url: `${site.url}/icon-512.png` },
+    },
+    datePublished: "2026-01-15",
+    dateModified: new Date().toISOString().slice(0, 10),
+    keywords: p.keywords.join(", "),
+    about: { "@type": "Place", name: "Greater Noida, Uttar Pradesh, India" },
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
 
       <section className="gradient-page text-white py-14">
         <div className="container-x">

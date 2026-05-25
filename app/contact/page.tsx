@@ -5,8 +5,17 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Contact Prem Arora — Greater Noida's Trusted Property Consultant",
-  description: "Book a free property consultation. Call, WhatsApp, or fill the form — our Greater Noida expert will respond within 15 minutes. Office in Sector Alpha-1.",
+  description: "Book a free property consultation with Prem Arora. Call, WhatsApp, or fill the form — Prem personally responds within 15 minutes. Office in Sector Alpha-1, Greater Noida.",
   alternates: { canonical: "/contact" },
+  openGraph: {
+    title: "Contact Prem Arora — Free Property Consultation in Greater Noida",
+    description: "25+ years of experience. Free, no-obligation consultation. Call, WhatsApp or book a slot directly with Prem.",
+    type: "website",
+    url: `${site.url}/contact`,
+    siteName: site.brand,
+    locale: "en_IN",
+  },
+  twitter: { card: "summary_large_image", title: "Contact Prem Arora — Greater Noida", description: "Free 20-minute property consultation. 25+ years experience." },
 };
 
 export default function Contact() {
