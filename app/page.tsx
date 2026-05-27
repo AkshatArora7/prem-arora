@@ -213,11 +213,20 @@ export default function HomePage() {
                 ["🏠","2 BHK under ₹50 L","Affordable ready-to-move 2 BHK flats in Greater Noida & Extension — sector-by-sector.","/seo/2-bhk-flats-greater-noida-under-50-lakhs"],
                 ["💎","Luxury Apartments","Premium 3 & 4 BHK residences in Greater Noida — top builders, hidden gems & negotiation tips.","/seo/luxury-apartments-greater-noida"],
                 ["🔑","Ready-to-Move Flats","OC-received projects in Greater Noida West (Noida Extension). Move in this month.","/seo/ready-to-move-flats-greater-noida-extension"],
-                ["📈","Invest in 2026","Top high-ROI sectors, Jewar airport impact &amp; investor's playbook.","/seo/invest-greater-noida-real-estate-2026"],
+                ["📈","Invest in 2026","Top high-ROI sectors, Jewar airport impact &amp; investor&apos;s playbook.","/seo/invest-greater-noida-real-estate-2026"],
+                ["✈️","Property near Jewar Airport","Best YEIDA sectors, plot vs apartment, expected appreciation.","/seo/property-near-jewar-airport-greater-noida"],
+                ["🌍","NRI Property Advisor","Buy remotely with virtual tours, POA registration &amp; FEMA-compliant flows.","/seo/nri-property-consultant-greater-noida"],
+                ["📍","YEIDA Plots Guide","Rates, allotment, top sectors &amp; expected ROI from Yamuna Authority plots.","/seo/yeida-plots-greater-noida"],
+                ["🏢","3 BHK Greater Noida West","Best sectors, builders &amp; prices for 3 BHK in Noida Extension.","/seo/3-bhk-flats-greater-noida-west"],
+                ["🗺️","Best Sectors to Buy","Sector-by-sector comparison: end-use, investment &amp; rental.","/seo/best-sectors-greater-noida-to-buy-property"],
+                ["💼","Sell Your Property","Honest valuation, genuine buyer network &amp; 30-day closures.","/seo/sell-property-greater-noida"],
+                ["🏦","Home Loan Help","Pre-approval in 48 hrs, lowest rates from SBI/HDFC/ICICI.","/seo/home-loan-greater-noida"],
+                ["📊","Market Trends 2026","Prices, demand, 5-year outlook &amp; sector winners.","/seo/greater-noida-real-estate-market-trends"],
+                ["🏆","Best Property Dealers","What separates the best dealers in Greater Noida.","/seo/best-property-dealers-greater-noida"],
               ].map(([ico,h,p,href])=>(
                 <Link key={h} href={href} className="bg-white border border-[var(--color-line)] rounded-[14px] p-6 hover:border-[var(--color-gold)] hover:-translate-y-1 transition-all">
                   <div className="w-12 h-12 rounded-xl grid place-items-center text-[var(--color-gold)] text-xl mb-3" style={{background:"linear-gradient(135deg,var(--color-navy),var(--color-navy-2))"}}>{ico}</div>
-                  <h3 className="text-[1.1rem] font-semibold mb-1">{h}</h3>
+                  <h3 className="text-[1.1rem] font-semibold mb-1" dangerouslySetInnerHTML={{__html:h}} />
                   <p className="text-slate-600 text-[0.92rem]" dangerouslySetInnerHTML={{__html:p}} />
                 </Link>
               ))}

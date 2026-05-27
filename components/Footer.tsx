@@ -30,9 +30,17 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-sans text-[0.95rem] tracking-[0.08em] uppercase mb-3.5">Popular Searches</h4>
             <Link href="/seo/2-bhk-flats-greater-noida-under-50-lakhs" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">2 BHK under ₹50 L</Link>
+            <Link href="/seo/3-bhk-flats-greater-noida-west" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">3 BHK in Noida Extension</Link>
             <Link href="/seo/luxury-apartments-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Luxury Apartments</Link>
             <Link href="/seo/ready-to-move-flats-greater-noida-extension" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Ready-to-Move Flats</Link>
+            <Link href="/seo/property-near-jewar-airport-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Property near Jewar Airport</Link>
+            <Link href="/seo/yeida-plots-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">YEIDA Plots</Link>
+            <Link href="/seo/nri-property-consultant-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">NRI Advisory</Link>
             <Link href="/seo/invest-greater-noida-real-estate-2026" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Investment Guide 2026</Link>
+            <Link href="/seo/best-sectors-greater-noida-to-buy-property" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Best Sectors to Buy</Link>
+            <Link href="/seo/sell-property-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Sell Your Property</Link>
+            <Link href="/seo/home-loan-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Home Loan Help</Link>
+            <Link href="/seo/greater-noida-real-estate-market-trends" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Market Trends 2026</Link>
             <Link href="/seo/best-property-dealers-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Best Property Dealers</Link>
           </div>
           <div>

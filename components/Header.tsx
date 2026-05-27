@@ -5,7 +5,7 @@ import { useState } from "react";
 const links = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Prem" },
-  { href: "/seo/best-property-dealers-greater-noida", label: "Guides" },
+  { href: "/guides", label: "Guides" },
   { href: "/contact", label: "Contact" },
 ];
 
