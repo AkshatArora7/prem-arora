@@ -4,20 +4,21 @@ import { seoPages } from "@/lib/seo-pages";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Greater Noida Property Guides — Expert Insights by Prem Arora",
-  description: "Complete library of Greater Noida real estate guides — buying, selling, investment, NRI advisory, YEIDA plots, Jewar Airport corridor, sector comparisons & home loans. Written by Prem Arora (25+ yrs).",
+  title: "Greater Noida Industrial & Land Guides — Expert Insights by Prem Arora",
+  description: "Complete library of Greater Noida industrial real estate guides — industrial plots, warehouse land, GNIDA & YEIDA allotment, Jewar Airport corridor, legal due diligence, freehold vs leasehold, NRI advisory. Written by Prem Arora (25+ yrs).",
   alternates: { canonical: "/guides" },
   openGraph: {
-    title: "Greater Noida Property Guides — Prem Arora",
-    description: "Every Greater Noida property question answered by 25+ years of on-ground expertise.",
+    title: "Greater Noida Industrial Land Guides — Prem Arora",
+    description: "Every Greater Noida industrial land question answered by 25+ years of on-ground expertise.",
     type: "website",
     url: `${site.url}/guides`,
     siteName: site.brand,
     locale: "en_IN",
   },
   keywords: [
-    "Greater Noida property guides","Greater Noida real estate blog","Greater Noida property tips",
-    "property advice Greater Noida","real estate guides Noida","Prem Arora guides",
+    "Greater Noida industrial land guides","industrial plots Greater Noida","GNIDA plot allotment",
+    "YEIDA industrial land","Jewar Airport land","legal due diligence industrial land",
+    "freehold vs leasehold","warehouse land Greater Noida","Prem Arora guides",
   ],
 };
 
@@ -48,8 +49,8 @@ export default function GuidesIndex() {
         <div className="container-x">
           <div className="text-[0.85rem] text-slate-300 mb-2"><Link href="/" className="hover:text-[var(--color-gold)]">Home</Link> / Guides</div>
           <span className="eyebrow" style={{color:"var(--color-gold)"}}>Free expert guides</span>
-          <h1 className="text-white mt-1 max-w-[820px]">Greater Noida property guides — 25 years of expertise, free to read.</h1>
-          <p className="text-slate-200 max-w-[760px] mt-3">From your first 2 BHK in Noida Extension to a YEIDA plot near Jewar Airport — Prem&apos;s guides cover every Greater Noida property question with honest, on-ground insight.</p>
+          <h1 className="text-white mt-1 max-w-[820px]">Greater Noida industrial &amp; land guides — 25 years of expertise, free to read.</h1>
+          <p className="text-slate-200 max-w-[760px] mt-3">From your first industrial plot in Ecotech to a YEIDA parcel near Jewar Airport, GNIDA allotments and legal due diligence — Prem&apos;s guides cover every Greater Noida industrial land question with honest, on-ground insight.</p>
           <div className="flex flex-wrap gap-3 mt-6">
             <a className="btn btn-primary" href={`tel:${site.phone}`}>📞 Call Prem Now</a>
             <a className="btn" style={{background:"#25D366",color:"#fff"}} href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener">💬 WhatsApp</a>

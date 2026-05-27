@@ -9,8 +9,8 @@ type Props = {
   id?: string;
 };
 
-const budgets = ["Under ₹40 Lakhs", "₹40L – ₹70L", "₹70L – ₹1.2 Cr", "Above ₹1.2 Cr"];
-const types = ["2 BHK", "3 BHK", "4 BHK / Penthouse", "Villa", "Plot", "Commercial"];
+const budgets = ["Under ₹1 Cr", "₹1 – ₹5 Cr", "₹5 – ₹25 Cr", "Above ₹25 Cr"];
+const types = ["Industrial Plot", "Industrial Shed / Built-up", "Warehouse / Logistics Land", "Commercial Plot", "Factory-Ready Land", "Other"];
 
 export default function LeadForm({
   variant = "card",
@@ -84,7 +84,7 @@ export default function LeadForm({
       {fields.includes("notes") && (
         <div className="mb-3">
           <label className="text-[0.82rem] text-slate-600 font-semibold block mb-1">Anything specific?</label>
-          <textarea className="form-control min-h-[100px]" name="notes" placeholder="e.g. need ground floor near a school" />
+          <textarea className="form-control min-h-[100px]" name="notes" placeholder="e.g. land size needed, power load, road frontage, GNIDA/YEIDA preference" />
         </div>
       )}
       <button type="submit" disabled={loading} className="btn btn-primary btn-block">

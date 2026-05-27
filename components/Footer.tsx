@@ -14,7 +14,7 @@ export default function Footer() {
                 <small className="block font-sans text-[0.62rem] tracking-[0.25em] text-[var(--color-gold)] font-semibold mt-[-2px]">GREATER NOIDA · 25+ YRS</small>
               </span>
             </Link>
-            <p className="text-[#cfd6e6] mt-3 max-w-[320px] text-[0.95rem]">Greater Noida&apos;s most trusted property consultant. 25+ years of local expertise, RERA-verified guidance, and personalised advisory for buyers, sellers, NRIs &amp; investors.</p>
+            <p className="text-[#cfd6e6] mt-3 max-w-[320px] text-[0.95rem]">Greater Noida&apos;s most trusted industrial &amp; land consultant. 25+ years of clean-title transactions across GNIDA, YEIDA, UPSIDA and private freehold — for manufacturers, warehousing operators, NRIs and investors.</p>
             <div className="flex gap-2.5 mt-3.5">
               <a className="btn btn-primary btn-sm" href={`tel:${site.phone}`}>📞 Call Now</a>
               <a className="btn btn-sm" style={{background:"transparent",color:"#fff",border:"1px solid rgba(255,255,255,.3)"}} href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noopener">💬 WhatsApp</a>
@@ -24,24 +24,24 @@ export default function Footer() {
             <h4 className="text-white font-sans text-[0.95rem] tracking-[0.08em] uppercase mb-3.5">Explore</h4>
             <Link href="/about" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">About Prem</Link>
             <Link href="/contact" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Book Consultation</Link>
-            <Link href="/seo/best-property-dealers-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Why Work With Prem</Link>
-            <Link href="/seo/invest-greater-noida-real-estate-2026" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Investment Guide</Link>
+            <Link href="/seo/legal-due-diligence-industrial-land-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Why Work With Prem</Link>
+            <Link href="/seo/industrial-real-estate-market-trends-greater-noida-2026" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Market Trends 2026</Link>
           </div>
           <div>
             <h4 className="text-white font-sans text-[0.95rem] tracking-[0.08em] uppercase mb-3.5">Popular Searches</h4>
-            <Link href="/seo/2-bhk-flats-greater-noida-under-50-lakhs" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">2 BHK under ₹50 L</Link>
-            <Link href="/seo/3-bhk-flats-greater-noida-west" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">3 BHK in Noida Extension</Link>
-            <Link href="/seo/luxury-apartments-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Luxury Apartments</Link>
-            <Link href="/seo/ready-to-move-flats-greater-noida-extension" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Ready-to-Move Flats</Link>
-            <Link href="/seo/property-near-jewar-airport-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Property near Jewar Airport</Link>
-            <Link href="/seo/yeida-plots-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">YEIDA Plots</Link>
-            <Link href="/seo/nri-property-consultant-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">NRI Advisory</Link>
-            <Link href="/seo/invest-greater-noida-real-estate-2026" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Investment Guide 2026</Link>
-            <Link href="/seo/best-sectors-greater-noida-to-buy-property" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Best Sectors to Buy</Link>
-            <Link href="/seo/sell-property-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Sell Your Property</Link>
-            <Link href="/seo/home-loan-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Home Loan Help</Link>
-            <Link href="/seo/greater-noida-real-estate-market-trends" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Market Trends 2026</Link>
-            <Link href="/seo/best-property-dealers-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Best Property Dealers</Link>
+            <Link href="/seo/industrial-plots-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Industrial Plots Greater Noida</Link>
+            <Link href="/seo/industrial-land-yamuna-expressway-yeida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">YEIDA Industrial Land</Link>
+            <Link href="/seo/industrial-land-jewar-airport" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Land Near Jewar Airport</Link>
+            <Link href="/seo/ecotech-industrial-sectors-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Ecotech Sectors Guide</Link>
+            <Link href="/seo/warehouse-logistics-land-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Warehouse &amp; Logistics Land</Link>
+            <Link href="/seo/commercial-plots-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Commercial Plots</Link>
+            <Link href="/seo/freehold-vs-leasehold-land-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Freehold vs Leasehold</Link>
+            <Link href="/seo/legal-due-diligence-industrial-land-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Legal Due Diligence</Link>
+            <Link href="/seo/title-verification-land-uttar-pradesh" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Title Verification — UP</Link>
+            <Link href="/seo/gnida-plot-allotment-process" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">GNIDA Plot Allotment</Link>
+            <Link href="/seo/nri-buy-industrial-land-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">NRI Industrial Land</Link>
+            <Link href="/seo/factory-setup-land-greater-noida" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Factory Setup Land</Link>
+            <Link href="/seo/industrial-real-estate-market-trends-greater-noida-2026" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">Market Trends 2026</Link>
           </div>
           <div>
             <h4 className="text-white font-sans text-[0.95rem] tracking-[0.08em] uppercase mb-3.5">Contact</h4>
@@ -52,7 +52,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-white/10 pt-4 flex flex-wrap gap-2.5 justify-between text-[0.82rem] text-[#9aa6c2]">
-          <span>© {new Date().getFullYear()} Sairath Realtors. All rights reserved. RERA Reg: {site.rera}.</span>
+          <span>© {new Date().getFullYear()} Prem Arora — Greater Noida Industrial &amp; Land Consultant. All rights reserved.{site.rera ? ` RERA: ${site.rera}.` : ""}</span>
           <span><a href="#" className="text-[#9aa6c2] hover:text-[var(--color-gold)]">Privacy</a> • <a href="#" className="text-[#9aa6c2] hover:text-[var(--color-gold)]">Terms</a> • <Link href="/sitemap.xml" className="text-[#9aa6c2] hover:text-[var(--color-gold)]">Sitemap</Link></span>
         </div>
       </div>

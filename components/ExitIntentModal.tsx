@@ -21,9 +21,9 @@ export default function ExitIntentModal() {
       <div className="bg-white rounded-2xl max-w-[480px] w-full p-7 relative shadow-[var(--shadow-lg)] modal-pop">
         <button onClick={() => setOpen(false)} aria-label="Close" className="absolute top-2.5 right-2.5 w-[34px] h-[34px] rounded-full bg-slate-100 hover:bg-slate-200">✕</button>
         <span className="eyebrow">Wait — Don&apos;t leave empty-handed</span>
-        <h3 className="mt-2 mb-2 text-xl font-display">Get the best deal on Greater Noida property</h3>
-        <p className="text-slate-600 mb-3 text-[0.95rem]">Drop your number and we&apos;ll send you this week&apos;s <b>exclusive pre-launch price list</b> + a free 15-min consultation.</p>
-        <LeadForm variant="inline" fields={["name", "phone"]} cta="Send Me The Price List" id="exit-intent" interest="Exit Intent — Price List" />
+        <h3 className="mt-2 mb-2 text-xl font-display">Get the best deal on Greater Noida industrial land</h3>
+        <p className="text-slate-600 mb-3 text-[0.95rem]">Drop your number and we&apos;ll send you this week&apos;s <b>clean-title industrial plot list</b> + a free 15-min consultation.</p>
+        <LeadForm variant="inline" fields={["name", "phone"]} cta="Send Me The Plot List" id="exit-intent" interest="Exit Intent — Plot List" />
       </div>
     </div>
   );

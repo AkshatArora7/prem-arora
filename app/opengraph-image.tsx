@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Prem Arora — Greater Noida Property Consultant (25+ Years Experience)";
+export const alt = "Prem Arora — Greater Noida Industrial & Land Consultant (25+ Years Experience)";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -46,10 +46,10 @@ export default async function OG() {
 
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div style={{ fontSize: 64, fontWeight: 800, lineHeight: 1.05, maxWidth: 1000 }}>
-            Greater Noida&apos;s most trusted property consultant.
+            Greater Noida&apos;s most trusted industrial &amp; land consultant.
           </div>
           <div style={{ fontSize: 28, color: "#cfd8ea", marginTop: 24, maxWidth: 1000 }}>
-            25+ years · 700+ families guided · RERA-verified · NRI specialist
+            25+ years · 500+ industrial deals · GNIDA · YEIDA · Jewar Airport · 100% clean title
           </div>
         </div>
 

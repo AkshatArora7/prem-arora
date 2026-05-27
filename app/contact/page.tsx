@@ -4,18 +4,18 @@ import LeadForm from "@/components/LeadForm";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Contact Prem Arora — Greater Noida's Trusted Property Consultant",
-  description: "Book a free property consultation with Prem Arora. Call, WhatsApp, or fill the form — Prem personally responds within 15 minutes. Office in Sector Alpha-1, Greater Noida.",
+  title: "Contact Prem Arora — Greater Noida Industrial & Land Consultant",
+  description: "Book a free industrial land consultation with Prem Arora. Call, WhatsApp, or fill the form — Prem personally responds within 15 minutes. Office in Greater Noida.",
   alternates: { canonical: "/contact" },
   openGraph: {
-    title: "Contact Prem Arora — Free Property Consultation in Greater Noida",
-    description: "25+ years of experience. Free, no-obligation consultation. Call, WhatsApp or book a slot directly with Prem.",
+    title: "Contact Prem Arora — Free Industrial Land Consultation in Greater Noida",
+    description: "25+ years of experience. Free, no-obligation consultation on industrial plots, warehouse land, GNIDA & YEIDA. Call, WhatsApp or book a slot directly with Prem.",
     type: "website",
     url: `${site.url}/contact`,
     siteName: site.brand,
     locale: "en_IN",
   },
-  twitter: { card: "summary_large_image", title: "Contact Prem Arora — Greater Noida", description: "Free 20-minute property consultation. 25+ years experience." },
+  twitter: { card: "summary_large_image", title: "Contact Prem Arora — Greater Noida Industrial Land", description: "Free 20-minute industrial land consultation. 25+ years experience." },
 };
 
 export default function Contact() {
@@ -24,8 +24,8 @@ export default function Contact() {
       <section className="gradient-page text-white py-16">
         <div className="container-x">
           <div className="text-[0.85rem] text-slate-300 mb-2"><Link href="/" className="hover:text-[var(--color-gold)]">Home</Link> / Contact</div>
-          <h1 className="text-white">Let&apos;s find your Greater Noida home</h1>
-          <p className="text-slate-200 max-w-[720px] mt-2">Fill the form and our property expert will call back within 15 minutes — or reach us directly on phone or WhatsApp.</p>
+          <h1 className="text-white">Let&apos;s find your Greater Noida industrial land</h1>
+          <p className="text-slate-200 max-w-[720px] mt-2">Tell us about your factory, warehouse or investment plan — Prem will personally call you back within 15 minutes — or reach us directly on phone or WhatsApp.</p>
         </div>
       </section>
 
@@ -33,7 +33,7 @@ export default function Contact() {
         <div className="container-x grid lg:grid-cols-[1.1fr_1fr] gap-10">
           <div>
             <h2>Get in touch</h2>
-            <p className="text-slate-600">We&apos;re open 9 AM to 9 PM, all 7 days. Walk in to our Sector Alpha-1 office, or reach us on call/WhatsApp.</p>
+            <p className="text-slate-600">We&apos;re open 9 AM to 9 PM, all 7 days. Walk in to our Greater Noida office, or reach us on call/WhatsApp.</p>
 
             <div className="grid sm:grid-cols-2 gap-3 mt-4">
               <a className="bg-white border border-[var(--color-line)] rounded-[12px] p-4 hover:border-[var(--color-gold)]" href={`tel:${site.phone}`}>
@@ -71,7 +71,7 @@ export default function Contact() {
           <div>
             <div className="bg-white border border-[var(--color-line)] rounded-[14px] p-6 shadow-sm">
               <h3 className="text-[1.2rem] mb-1">Book a free consultation</h3>
-              <p className="text-slate-600 text-[0.92rem] mb-3">Tell us what you&apos;re looking for and we&apos;ll send a personalised shortlist + price list.</p>
+              <p className="text-slate-600 text-[0.92rem] mb-3">Tell us your end use, land size and preferred corridor — we&apos;ll send a personalised shortlist with clean-title plots.</p>
               <LeadForm id="contact-lead" interest="Contact Page" cta="Request a Free Consultation" />
             </div>
           </div>

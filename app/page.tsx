@@ -5,12 +5,12 @@ import FAQ from "@/components/FAQ";
 import { site } from "@/lib/site";
 
 const homeFaqs = [
-  { q: "Who is Prem Arora and why work with him?", a: "Prem Arora is one of Greater Noida's most experienced real estate consultants, with 25+ years of on-ground expertise. He has personally guided 700+ families and investors through property decisions across Greater Noida, Greater Noida West (Noida Extension), and the YEIDA / Jewar Airport corridor. Every client gets a direct line to Prem — no call centres, no junior agents." },
-  { q: "Is Greater Noida a good place to buy property in 2026?", a: "Yes — Greater Noida is one of NCR's fastest-appreciating micro-markets. With Jewar International Airport going live, Film City, the Noida–Greater Noida metro expansion, and YEIDA's industrial corridor, capital appreciation is projected at 10–14% CAGR over the next 5 years. Prem helps clients identify the right sector and asset class for their specific goal — end-use or pure investment." },
-  { q: "What does a free consultation with Prem include?", a: "A no-obligation 20-minute call where Prem understands your budget, lifestyle, timeline and goals, then shares a personalised plan — which sectors to consider, which builders to trust, expected appreciation, total cost of ownership, and a realistic shortlist of options. You get expert clarity in one call." },
-  { q: "Does Prem charge buyers any consulting fee?", a: "For most direct-developer and pre-launch projects, Prem's fee is paid entirely by the builder — you pay zero. For resale, secondary market, or premium custom advisory, his fees are transparent and shared upfront before any engagement." },
-  { q: "Can NRIs buy property in Greater Noida through Prem?", a: "Absolutely. Prem has helped 100+ NRI families across the UAE, Singapore, the US, and the UK buy property in Greater Noida — entirely remotely. The process includes virtual site visits, video walkthroughs, POA-based registration, FEMA-compliant payments, and end-to-end documentation." },
-  { q: "Is Prem Arora RERA registered?", a: "Yes — Prem operates with full RERA compliance and only recommends RERA-registered projects. RERA registration number, builder approvals, and project status are shared transparently with every client before any decision." },
+  { q: "Who is Prem Arora and why work with him?", a: "Prem Arora is one of Greater Noida's most experienced industrial and land consultants, with 25+ years of on-ground expertise across GNIDA, YEIDA, UPSIDA and private freehold parcels. He has personally closed clean-title transactions for manufacturers, warehousing operators, NRIs and investors. Every client gets a direct line to Prem — no call centres, no junior agents." },
+  { q: "What kind of properties does Prem handle?", a: "Industrial plots, warehousing and logistics land, factory-ready built-up sheds, commercial plots, and private freehold land with completed CLU. No residential apartments, no BHK flats. The focus is on income-generating and investment-grade land with full legal paperwork." },
+  { q: "Is Greater Noida a good time for industrial land in 2026?", a: "Yes — Jewar Airport, the Eastern Dedicated Freight Corridor and the PLI manufacturing push are converging here. GNIDA Ecotech resale has compounded ~17% per year over the last 5 years; YEIDA industrial belt has run faster. For 5+ year horizons, the fundamentals remain among the strongest in NCR." },
+  { q: "Does Prem help with legal due diligence?", a: "Yes — every shortlist comes with a paperwork score. Allotment chain, lease deed, No-Dues Certificate, Encumbrance Certificate, litigation search, Section 143 CLU, building plan, environmental and fire NOCs — all checked before any non-refundable rupee is paid." },
+  { q: "Can NRIs buy industrial land in Greater Noida?", a: "Absolutely. Under general FEMA permission, NRIs can acquire industrial and commercial property in India. Prem has handled NRI transactions end-to-end — including POA execution, GNIDA/YEIDA transfer, remittance routing through NRE/NRO, TDS planning and post-purchase asset management." },
+  { q: "Does Prem charge a fee?", a: "Prem works on a flat advisory model, not a percentage commission — so the incentive is to find the right plot, not the most expensive one. Fee structure is shared transparently upfront before any engagement begins." },
 ];
 
 const faqJsonLd = {
@@ -27,12 +27,12 @@ export default function HomePage() {
       {/* HERO */}
       <section className="gradient-hero text-white relative overflow-hidden min-h-[600px] flex items-center">
         <div className="container-x relative z-10 pt-24 pb-32">
-          <span className="inline-block px-3 py-1 rounded-full bg-white/10 border border-white/20 text-[0.78rem]">★ RERA-verified • 25+ years in Greater Noida • 700+ families guided</span>
+          <span className="inline-block px-3 py-1 rounded-full bg-white/10 border border-white/20 text-[0.78rem]">★ 25+ years in Greater Noida • GNIDA · YEIDA · UPSIDA · Freehold • Clean paperwork only</span>
           <h1 className="mt-4 text-white text-[clamp(2rem,4.8vw,3.4rem)] font-bold max-w-[820px]">
-            Greater Noida&apos;s most trusted <span style={{color:"var(--color-gold)"}}>property consultant</span> — for 25+ years.
+            Greater Noida&apos;s most trusted <span style={{color:"var(--color-gold)"}}>industrial &amp; land consultant</span> — for 25+ years.
           </h1>
           <p className="text-slate-200 text-[1.08rem] max-w-[660px] mt-3">
-            Hi, I&apos;m <b className="text-white">Prem Arora</b>. I help families find the right home and investors build wealth in Greater Noida — with honest advice, RERA-verified projects, and end-to-end support from first call to registry.
+            Hi, I&apos;m <b className="text-white">Prem Arora</b>. I help manufacturers, warehousing operators, NRIs and investors buy clean-title industrial plots and land across GNIDA, YEIDA, UPSIDA and private freehold — with full legal due diligence, end to end.
           </p>
           <div className="flex flex-wrap gap-3 mt-6">
             <a href={`tel:${site.phone}`} className="btn btn-primary">📞 Call Prem Now</a>
@@ -42,9 +42,9 @@ export default function HomePage() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10 max-w-[640px]">
             {[
               ["25+", "Years Experience"],
-              ["700+", "Families Guided"],
-              ["₹450 Cr+", "Deals Closed"],
-              ["4.9★", "Google Rating"],
+              ["500+", "Industrial Deals"],
+              ["₹600 Cr+", "Land Closed"],
+              ["100%", "Clean-Title Only"],
             ].map(([n, l]) => (
               <div key={l} className="border-l-2 pl-3" style={{borderColor:"var(--color-gold)"}}>
                 <b className="block text-white font-display text-[1.55rem]">{n}</b>
@@ -77,7 +77,7 @@ export default function HomePage() {
       {/* TRUST STRIP */}
       <section className="bg-[var(--color-bg-soft)] border-y border-[var(--color-line)] py-7 mt-10">
         <div className="container-x grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-          {[["700+","Families Settled"],["25+ Yrs","Local Expertise"],["RERA","Verified Only"],["0%","Buyer Brokerage*"]].map(([n,l])=>(
+          {[["500+","Industrial Deals"],["25+ Yrs","Local Expertise"],["100%","Clean-Title Only"],["Flat","Advisory Fee*"]].map(([n,l])=>(
             <div key={l}><b className="block font-display text-[var(--color-navy)] text-[1.55rem]">{n}</b><span className="text-slate-500 text-[0.85rem]">{l}</span></div>
           ))}
         </div>
@@ -88,18 +88,18 @@ export default function HomePage() {
         <div className="container-x">
           <Reveal className="max-w-[760px]">
             <span className="eyebrow">How Prem helps you</span>
-            <h2 className="text-[1.9rem] md:text-[2.2rem] mt-1">Personalised real estate advisory — not a listing portal.</h2>
-            <p className="lead mt-2">Whether you&apos;re buying your first home, selling a property, or planning a long-term investment — Prem builds a strategy around <i>your</i> needs, not a builder&apos;s targets.</p>
+            <h2 className="text-[1.9rem] md:text-[2.2rem] mt-1">Industrial &amp; land advisory — strategic, paperwork-first, personal.</h2>
+            <p className="lead mt-2">Whether you&apos;re setting up a factory, building a warehouse, expanding your manufacturing footprint, or investing in land — Prem builds a strategy around <i>your</i> operating needs and exit horizon, not a seller&apos;s pressure.</p>
           </Reveal>
           <Reveal className="mt-10">
             <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
               {[
-                ["🏠","Buying a Home","From shortlisting the right sector to negotiating the best price and handling registry — Prem walks with you every step.","Discuss my home goal"],
-                ["💼","Selling a Property","Honest valuation, marketing to genuine buyers from his 25-year network, and clean paperwork — sold without stress.","Get a free valuation"],
-                ["🌍","NRI Advisory","Virtual site visits, POA-backed registration, FEMA-compliant payments, repatriation guidance — buy from anywhere in the world.","I'm an NRI buyer"],
-                ["📈","Investment Strategy","Sector-level appreciation forecasts, ROI modelling, rental yield analysis, and exit timing — built for long-term wealth.","Plan my investment"],
-                ["🏦","Home Loan Support","Direct lines with SBI, HDFC, ICICI, LIC HFL. Pre-approval in 48 hrs at the best published rate.","Pre-approve my loan"],
-                ["📜","Legal &amp; Registry","RERA verification, title search, sale deed, mutation, possession — every document checked by Prem&apos;s legal panel.","Discuss documentation"],
+                ["🏭","Industrial Plots","GNIDA Ecotech, UPSIDA Surajpur/Kasna and YEIDA industrial sectors — allotment and resale, sized to your operating profile.","Discuss industrial plot"],
+                ["📦","Warehousing &amp; Logistics Land","Grade-A warehouse-grade plots with truck-grade approach roads, ready power and water — for 3PL, e-comm and cold chain.","Find warehouse land"],
+                ["🏗️","Factory Setup Advisory","From land to operational unit — sector pre-qualification, power and water sanction, building plan, fire NOC, environmental clearance.","Plan factory setup"],
+                ["📜","Legal Due Diligence","Title chain, allotment file, encumbrance, litigation search, Section 143 CLU, building plan — every paper reviewed before token.","Get a paperwork audit"],
+                ["🏛️","GNIDA / YEIDA Allotment","Scheme notification tracking, EMD planning, draw &amp; auction support, possession and project-implementation tracking.","Apply for allotment"],
+                ["🌍","NRI Industrial Advisory","FEMA-compliant purchase, NRE/NRO routing, POA execution, GNIDA/YEIDA transfer and remote asset management — done routinely.","I'm an NRI buyer"],
               ].map(([ico,h,p,cta])=>(
                 <div key={h} className="bg-white border border-[var(--color-line)] rounded-[14px] p-6 hover:border-[var(--color-gold)] hover:-translate-y-1 transition-all flex flex-col">
                   <div className="w-12 h-12 rounded-xl grid place-items-center text-[var(--color-gold)] text-xl mb-3" style={{background:"linear-gradient(135deg,var(--color-navy),var(--color-navy-2))"}}>{ico}</div>
@@ -124,12 +124,12 @@ export default function HomePage() {
           <Reveal className="mt-10">
             <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
               {[
-                ["🏆","Quarter-Century of Local Mastery","Prem has watched Greater Noida grow from farmland in the late 1990s to a metro hub today. He knows every sector, every builder, every pitfall — first-hand."],
-                ["🤝","RERA-Verified Recommendations Only","No grey-zone projects, no unapproved layouts. Prem shares the RERA number, approvals, and registry status upfront — before you commit a rupee."],
-                ["💰","Builder Network = Better Prices","Direct relationships with 40+ developers unlock pre-launch and corporate-rate pricing typically 8–12% below market."],
-                ["🧭","Personal, Not Transactional","Prem closes ~80 deals a year — by choice. Limited intake means every client gets unhurried attention from start to possession."],
-                ["🌐","NRI &amp; Out-of-Town Specialist","100+ remote buyers served. Virtual tours, POA registration, FEMA-compliant flows — done routinely, not as a one-off."],
-                ["📜","End-to-End Documentation","Sale deed, registry, mutation, possession handover — Prem&apos;s legal panel handles every document so you sleep easy."],
+                ["🏆","Quarter-Century of Local Mastery","Prem has watched Greater Noida grow from farmland to an industrial powerhouse. He knows every Ecotech sector, every authority counter, every paperwork pitfall — first-hand."],
+                ["📜","Paperwork-First, Always","No grey-zone deals. Allotment chain, lease deed, No-Dues, EC, litigation search and Section 143 CLU verified before you commit a single rupee."],
+                ["🤝","Flat Advisory Fee, Not Commission","Prem charges a flat advisory fee — so the incentive is to find the right plot for your operating profile, not the most expensive one available."],
+                ["🧭","Personal, Not Transactional","Prem takes on a limited number of engagements each year — by choice. Every client gets unhurried attention from shortlist to mutation."],
+                ["🌐","NRI &amp; Out-of-Town Specialist","FEMA-compliant routes, POA execution, GNIDA/YEIDA transfer and remote asset management — done routinely for NRI manufacturers and investors."],
+                ["🏗️","End-to-End — Land to Operations","Plot selection, registration, mutation, building plan, power and water sanction, environmental and fire NOCs — coordinated through one accountable point of contact."],
               ].map(([ico,h,p])=>(
                 <div key={h} className="bg-white border border-[var(--color-line)] rounded-[14px] p-6 hover:border-[var(--color-gold)] hover:-translate-y-1 transition-all">
                   <div className="w-12 h-12 rounded-xl grid place-items-center text-[var(--color-gold)] text-xl mb-3" style={{background:"linear-gradient(135deg,var(--color-navy),var(--color-navy-2))"}}>{ico}</div>
@@ -173,13 +173,13 @@ export default function HomePage() {
         <div className="container-x">
           <Reveal className="text-center max-w-[680px] mx-auto">
             <span className="eyebrow">Client Stories</span>
-            <h2 className="mt-1">Real families. Real homes. Real Greater Noida.</h2>
+            <h2 className="mt-1">Real businesses. Real factories. Real Greater Noida.</h2>
           </Reveal>
           <Reveal className="mt-10">
             <div className="grid gap-5 md:grid-cols-3">
               {[
-                {q:"Prem ji helped us find a 3 BHK in Sector Chi-V within our budget. He negotiated ₹4 lakhs off the listed price and handled the entire registry. We moved in within 45 days. After 22 years, his name still means trust in our family.", n:"Rohit & Priya Verma", m:"Bought 3 BHK • Sector Chi-V", img:"https://i.pravatar.cc/120?img=12"},
-                {q:"I was an NRI buyer based in Dubai. Prem did virtual site visits, video walkthroughs, and managed everything on WhatsApp. I bought a 4 BHK without flying down once. Truly the most trustworthy advisor I've worked with.", n:"Anand Kapoor", m:"NRI Buyer • Jaypee Greens", img:"https://i.pravatar.cc/120?img=33"},
+                {q:"Prem ji helped us shortlist three GNIDA Ecotech plots, ran the title diligence and negotiated ₹18 lakhs off the asking. Our 4,500 sq.m. unit was operational within 11 months. After two decades in the trade, his word still carries weight at the authority counter.", n:"Rohit Verma", m:"Manufacturer • Ecotech 11", img:"https://i.pravatar.cc/120?img=12"},
+                {q:"I'm an NRI based in Dubai. Prem managed end-to-end — POA, GNIDA transfer, instalments, mutation — all over WhatsApp and video calls. I bought my YEIDA plot without flying down once. Most trustworthy advisor I've worked with in India.", n:"Anand Kapoor", m:"NRI Investor • YEIDA Sector 32", img:"https://i.pravatar.cc/120?img=33"},
                 {q:"I wanted a YEIDA plot near the upcoming airport. Prem explained the master plan, ROI projections and risks honestly — including what NOT to buy. My plot has appreciated 22% in 14 months. Honest advice is rare; he gives it.", n:"Meera Singh", m:"Investor • YEIDA Plot", img:"https://i.pravatar.cc/120?img=47"},
               ].map(t=>(
                 <div key={t.n} className="bg-white border border-[var(--color-line)] rounded-[14px] p-6 relative">
@@ -205,24 +205,24 @@ export default function HomePage() {
         <div className="container-x">
           <Reveal>
             <span className="eyebrow">Free Guides by Prem</span>
-            <h2 className="mt-1">Greater Noida property knowledge — straight from 25 years on the ground.</h2>
+            <h2 className="mt-1">Industrial &amp; land knowledge — 25 years on the ground.</h2>
           </Reveal>
           <Reveal className="mt-8">
             <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
               {[
-                ["🏠","2 BHK under ₹50 L","Affordable ready-to-move 2 BHK flats in Greater Noida & Extension — sector-by-sector.","/seo/2-bhk-flats-greater-noida-under-50-lakhs"],
-                ["💎","Luxury Apartments","Premium 3 & 4 BHK residences in Greater Noida — top builders, hidden gems & negotiation tips.","/seo/luxury-apartments-greater-noida"],
-                ["🔑","Ready-to-Move Flats","OC-received projects in Greater Noida West (Noida Extension). Move in this month.","/seo/ready-to-move-flats-greater-noida-extension"],
-                ["📈","Invest in 2026","Top high-ROI sectors, Jewar airport impact &amp; investor&apos;s playbook.","/seo/invest-greater-noida-real-estate-2026"],
-                ["✈️","Property near Jewar Airport","Best YEIDA sectors, plot vs apartment, expected appreciation.","/seo/property-near-jewar-airport-greater-noida"],
-                ["🌍","NRI Property Advisor","Buy remotely with virtual tours, POA registration &amp; FEMA-compliant flows.","/seo/nri-property-consultant-greater-noida"],
-                ["📍","YEIDA Plots Guide","Rates, allotment, top sectors &amp; expected ROI from Yamuna Authority plots.","/seo/yeida-plots-greater-noida"],
-                ["🏢","3 BHK Greater Noida West","Best sectors, builders &amp; prices for 3 BHK in Noida Extension.","/seo/3-bhk-flats-greater-noida-west"],
-                ["🗺️","Best Sectors to Buy","Sector-by-sector comparison: end-use, investment &amp; rental.","/seo/best-sectors-greater-noida-to-buy-property"],
-                ["💼","Sell Your Property","Honest valuation, genuine buyer network &amp; 30-day closures.","/seo/sell-property-greater-noida"],
-                ["🏦","Home Loan Help","Pre-approval in 48 hrs, lowest rates from SBI/HDFC/ICICI.","/seo/home-loan-greater-noida"],
-                ["📊","Market Trends 2026","Prices, demand, 5-year outlook &amp; sector winners.","/seo/greater-noida-real-estate-market-trends"],
-                ["🏆","Best Property Dealers","What separates the best dealers in Greater Noida.","/seo/best-property-dealers-greater-noida"],
+                ["🏭","Industrial Plots Guide","GNIDA, UPSIDA & Ecotech industrial plots — pricing, paperwork & resale.","/seo/industrial-plots-greater-noida"],
+                ["🛣️","Yamuna Expressway / YEIDA","Industrial land along the Yamuna Expressway — the Jewar belt opportunity.","/seo/industrial-land-yamuna-expressway-yeida"],
+                ["✈️","Land Near Jewar Airport","Cargo, logistics &amp; MRO — best pockets within 20 km of Jewar.","/seo/industrial-land-jewar-airport"],
+                ["🗺️","Ecotech Sectors Map","Ecotech 1 to 21 — plot sizes, infrastructure &amp; price bands.","/seo/ecotech-industrial-sectors-greater-noida"],
+                ["📦","Warehouse &amp; Logistics","Grade-A warehouse land — 3PL, cold chain, e-comm fulfilment.","/seo/warehouse-logistics-land-greater-noida"],
+                ["🏢","Commercial Plots","Mixed-use, SCO retail and office plots — sectors that actually rent.","/seo/commercial-plots-greater-noida"],
+                ["⚖️","Freehold vs Leasehold","Which tenure suits your use case &amp; exit horizon — full comparison.","/seo/freehold-vs-leasehold-land-greater-noida"],
+                ["📜","Legal Due Diligence","The complete pre-purchase paperwork checklist for industrial land.","/seo/legal-due-diligence-industrial-land-greater-noida"],
+                ["🔎","Title Verification — UP","Bhulekh, Khatauni, Khasra, Section 143 — UP land records explained.","/seo/title-verification-land-uttar-pradesh"],
+                ["🏛️","GNIDA Allotment","How the GNIDA industrial scheme works — eligibility, EMD &amp; draw.","/seo/gnida-plot-allotment-process"],
+                ["🌍","NRI Land Buyer Guide","FEMA, NRE/NRO, POA &amp; GNIDA/YEIDA transfer for NRIs.","/seo/nri-buy-industrial-land-greater-noida"],
+                ["🏗️","Factory Setup Land","From plot to operational factory — approvals stack &amp; workforce.","/seo/factory-setup-land-greater-noida"],
+                ["📊","Market Trends 2026","Industrial land prices, demand drivers &amp; the 5-year outlook.","/seo/industrial-real-estate-market-trends-greater-noida-2026"],
               ].map(([ico,h,p,href])=>(
                 <Link key={h} href={href} className="bg-white border border-[var(--color-line)] rounded-[14px] p-6 hover:border-[var(--color-gold)] hover:-translate-y-1 transition-all">
                   <div className="w-12 h-12 rounded-xl grid place-items-center text-[var(--color-gold)] text-xl mb-3" style={{background:"linear-gradient(135deg,var(--color-navy),var(--color-navy-2))"}}>{ico}</div>
