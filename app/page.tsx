@@ -24,50 +24,109 @@ export default function HomePage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
-      {/* HERO */}
-      <section className="gradient-hero text-white relative overflow-hidden">
-        <div className="container-x relative z-10 pt-24 pb-32 md:pt-32 md:pb-40 max-w-[900px]">
-          <span className="inline-flex items-center gap-2.5 text-[0.7rem] tracking-[0.22em] uppercase text-[var(--color-gold)]/90 font-medium">
-            <span className="w-5 h-px bg-[var(--color-gold)]/50" />
-            Greater Noida · Since 1999
-          </span>
+      {/* HERO — warm editorial */}
+      <section className="relative overflow-hidden" style={{background:"linear-gradient(180deg,#efe9dc 0%,#e2d7c0 55%,#cdbb9b 100%)"}}>
+        {/* soft landscape silhouette */}
+        <svg className="absolute inset-x-0 bottom-0 w-full opacity-[0.18] pointer-events-none" viewBox="0 0 1440 200" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0,160 C220,80 380,180 600,120 C820,60 1000,150 1200,100 C1320,72 1400,110 1440,90 L1440,200 L0,200 Z" fill="#7a6a55"/>
+        </svg>
 
-          <h1 className="mt-7 text-white font-display text-[clamp(2.1rem,5vw,3.6rem)] leading-[1.08] font-normal max-w-[760px] tracking-[-0.01em]">
-            Industrial &amp; land advisory,<br className="hidden sm:block" />
-            <span className="text-slate-400">done quietly and correctly.</span>
-          </h1>
+        <div className="container-x relative z-10 pt-14 pb-12 md:pt-20 md:pb-16">
+          <div className="grid lg:grid-cols-[1.05fr_1fr] gap-10 lg:gap-14 items-center">
 
-          <p className="text-slate-400 text-[1.05rem] leading-[1.7] max-w-[560px] mt-7">
-            For 25 years, helping manufacturers, NRIs and investors acquire clean-title plots across GNIDA, YEIDA and UPSIDA — with end-to-end legal due diligence. Always free for buyers.
-          </p>
+            {/* LEFT — editorial display */}
+            <div className="relative pt-4">
+              <h1 className="font-display text-[clamp(2.8rem,8vw,6rem)] leading-[0.92] tracking-[-0.025em] text-[#2a2218]">
+                THE RIGHT<br/>
+                <span className="block">PLOT.</span>
+                <em className="block not-italic text-[#8a7a62] mt-2">Done right.</em>
+              </h1>
+              <p className="text-[#7a6a55] italic mt-7 text-[0.95rem] tracking-wide">/ Clean title. Greater Noida. Since 1999. /</p>
 
-          <div className="flex flex-wrap items-center gap-6 mt-10">
-            <a href={`tel:${site.phone}`} className="btn btn-primary">Call Prem</a>
-            <Link href="/contact" className="text-white hover:text-[var(--color-gold)] transition-colors text-[0.95rem] font-medium border-b border-white/20 hover:border-[var(--color-gold)] pb-0.5">
-              Book a free consultation →
-            </Link>
+              <div className="mt-9 flex items-center gap-5">
+                <a href={`tel:${site.phone}`} className="inline-flex items-center gap-3 bg-[#2a2218] text-white px-9 py-4 rounded-full text-[0.88rem] font-medium tracking-[0.12em] uppercase hover:bg-[#3d3325] transition-colors shadow-[0_10px_30px_-10px_rgba(42,34,24,0.5)]">
+                  Talk to Prem
+                </a>
+                <Link href="/contact" className="text-[#2a2218] text-[0.85rem] font-semibold tracking-[0.14em] uppercase underline underline-offset-4 decoration-[#2a2218]/30 hover:decoration-[#2a2218] transition">
+                  Book a free slot
+                </Link>
+              </div>
+            </div>
+
+            {/* RIGHT — photo card with floating chips */}
+            <div className="relative">
+              <div className="bg-white/95 backdrop-blur-sm rounded-[28px] p-5 md:p-6 shadow-[0_30px_80px_-25px_rgba(75,55,35,0.45)]">
+                <div className="flex flex-wrap gap-2 mb-5">
+                  <span className="px-4 py-1.5 rounded-full bg-white border border-[#e5dccb] text-[0.74rem] text-[#3a2e22] font-medium">GNIDA</span>
+                  <span className="px-4 py-1.5 rounded-full bg-white border border-[#e5dccb] text-[0.74rem] text-[#3a2e22] font-medium">YEIDA</span>
+                  <span className="px-4 py-1.5 rounded-full bg-[#2a2218] text-white text-[0.74rem] font-medium">UPSIDA</span>
+                </div>
+                <h3 className="font-display text-[1.5rem] md:text-[1.75rem] leading-[1.1] text-[#2a2218]">
+                  End-to-end legal<br/>due diligence.
+                </h3>
+                <p className="text-[#7a6a55] text-[0.88rem] mt-2">Title chain, mutation, lease, CLU.</p>
+                <div className="relative mt-5 rounded-[18px] overflow-hidden aspect-[16/11] bg-[#d4c4a8]">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1200&q=80"
+                    alt="Aerial view of industrial land near Greater Noida"
+                    className="w-full h-full object-cover"
+                    loading="eager"
+                  />
+                </div>
+              </div>
+
+              {/* Floating "site visit" badge */}
+              <div className="hidden sm:flex absolute -right-3 md:-right-6 top-[42%] bg-white rounded-2xl pl-2 pr-4 py-2 shadow-[0_12px_30px_-10px_rgba(75,55,35,0.35)] items-center gap-2.5">
+                <div className="w-9 h-9 rounded-full bg-[#2a2218] grid place-items-center text-white text-[0.7rem]">▶</div>
+                <div className="leading-tight">
+                  <div className="text-[0.62rem] uppercase tracking-[0.18em] text-[#7a6a55]">Free</div>
+                  <div className="text-[0.78rem] font-semibold text-[#2a2218]">Site visit</div>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div className="flex flex-wrap items-center gap-x-8 gap-y-3 mt-20 text-[0.82rem] text-slate-500 border-t border-white/[0.06] pt-8 max-w-[680px]">
-            <span><span className="text-white">25+</span> years</span>
-            <span className="text-white/10">·</span>
-            <span><span className="text-white">500+</span> deals closed</span>
-            <span className="text-white/10">·</span>
-            <span><span className="text-white">₹600 Cr+</span> transacted</span>
-            <span className="text-white/10">·</span>
-            <span><span className="text-white">100%</span> clean title</span>
+          {/* BOTTOM 2-up trust strip */}
+          <div className="mt-14 md:mt-20 grid md:grid-cols-2 gap-5">
+            {/* Tan paperwork card */}
+            <div className="bg-[#a89378] rounded-[24px] p-6 text-white flex items-center gap-5 overflow-hidden relative">
+              <div className="flex-1 min-w-0">
+                <div className="font-display text-[1.45rem] md:text-[1.7rem] leading-[1.1]">100% clean<br/>paperwork.</div>
+                <p className="text-white/75 text-[0.82rem] mt-2">Title verified before you commit a rupee.</p>
+              </div>
+              <div className="w-28 h-24 md:w-36 md:h-28 rounded-[14px] overflow-hidden flex-shrink-0 shadow-lg">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=500&q=80"
+                  alt="Legal documents being signed"
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            {/* Testimonials + CTA */}
+            <div className="flex items-center gap-5 md:gap-7 px-2">
+              <div className="flex -space-x-3 flex-shrink-0">
+                <div className="w-12 h-12 rounded-full border-2 border-[#efe9dc] bg-[#7a6a55] grid place-items-center text-white text-[0.78rem] font-semibold">RK</div>
+                <div className="w-12 h-12 rounded-full border-2 border-[#efe9dc] bg-[#a89378] grid place-items-center text-white text-[0.78rem] font-semibold">SP</div>
+                <div className="w-12 h-12 rounded-full border-2 border-[#efe9dc] bg-[#2a2218] grid place-items-center text-white text-[0.78rem] font-semibold">+</div>
+              </div>
+              <div className="border-l border-[#7a6a55]/30 pl-4 md:pl-5">
+                <div className="font-display italic text-[1.6rem] text-[#2a2218] leading-none">500+</div>
+                <div className="text-[0.7rem] text-[#7a6a55] uppercase tracking-[0.16em] mt-1">deals closed</div>
+              </div>
+              <div className="ml-auto text-right max-w-[260px]">
+                <div className="font-display text-[0.82rem] md:text-[0.9rem] uppercase tracking-[0.1em] text-[#2a2218] leading-[1.3]">We handle legal, mutation &amp; possession</div>
+                <Link href="/about" className="text-[0.72rem] text-[#2a2218] underline underline-offset-4 tracking-[0.14em] uppercase mt-2.5 inline-block font-semibold hover:text-[#7a6a55] transition">Learn more →</Link>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-[80px] pointer-events-none" style={{background:"linear-gradient(180deg,transparent,#fff)"}} />
-      </section>
 
-      {/* TRUST STRIP */}
-      <section className="bg-[var(--color-bg-soft)] border-y border-[var(--color-line)] py-7 mt-10">
-        <div className="container-x grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-          {[["500+","Industrial Deals"],["25+ Yrs","Local Expertise"],["100%","Clean-Title Only"],["Flat","Advisory Fee*"]].map(([n,l])=>(
-            <div key={l}><b className="block font-display text-[var(--color-navy)] text-[1.55rem]">{n}</b><span className="text-slate-500 text-[0.85rem]">{l}</span></div>
-          ))}
-        </div>
+        {/* smooth fade into the next white section */}
+        <div className="absolute bottom-0 left-0 right-0 h-[60px] pointer-events-none" style={{background:"linear-gradient(180deg,transparent,#ffffff)"}} />
       </section>
 
       {/* HOW PREM HELPS */}
