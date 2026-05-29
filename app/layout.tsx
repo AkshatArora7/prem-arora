@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Instrument_Serif } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -7,8 +7,8 @@ import { FloatingWhatsApp, StickyMobileBar } from "@/components/FloatingCTAs";
 import ExitIntentModal from "@/components/ExitIntentModal";
 import { site } from "@/lib/site";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
-const playfair = Instrument_Serif({ subsets: ["latin"], variable: "--font-playfair", display: "swap", weight: "400" });
+const inter = Roboto({ subsets: ["latin"], variable: "--font-inter", display: "swap", weight: ["300","400","500","700"] });
+const playfair = Roboto({ subsets: ["latin"], variable: "--font-playfair", display: "swap", weight: ["500","700"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
