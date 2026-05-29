@@ -2,7 +2,7 @@ export const site = {
   name: "Prem Arora",
   brand: "Prem Arora — Greater Noida Industrial & Land Consultant",
   tagline: "25+ years helping investors, NRIs & businesses buy clean-title industrial plots and land in Greater Noida",
-  url: "https://premarora.in",
+  url: "https://premarora.aatechax.com",
   phone: "+918860040064",
   phoneDisplay: "+91 88600 40064",
   whatsapp: "918860040064",
