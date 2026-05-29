@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Prem Arora — Industrial & Land Consultant, Greater Noida", description: "25+ years. Industrial plots, warehousing land, factory sites — with full legal paperwork." },
   alternates: { canonical: site.url },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 } },
-  verification: { google: "REPLACE_WITH_GSC_TOKEN" },
+  verification: process.env.NEXT_PUBLIC_GSC_TOKEN ? { google: process.env.NEXT_PUBLIC_GSC_TOKEN } : undefined,
   category: "Real Estate",
 };
 
