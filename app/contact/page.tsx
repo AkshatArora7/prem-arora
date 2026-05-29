@@ -26,6 +26,12 @@ export default function Contact() {
           <div className="text-[0.85rem] text-slate-300 mb-2"><Link href="/" className="hover:text-[var(--color-gold)]">Home</Link> / Contact</div>
           <h1 className="text-white">Let&apos;s find your Greater Noida industrial land</h1>
           <p className="text-slate-200 max-w-[720px] mt-2">Tell us about your factory, warehouse or investment plan — Prem will personally call you back within 15 minutes — or reach us directly on phone or WhatsApp.</p>
+          <div className="inline-flex flex-wrap items-center gap-x-5 gap-y-2 mt-5 px-4 py-2.5 rounded-full bg-white/[0.06] border border-white/15 text-[0.86rem]">
+            <span className="text-[var(--color-gold)] font-semibold">✓ 100% Free</span>
+            <span className="text-slate-300">No buyer-side fees</span>
+            <span className="text-slate-300">No obligation</span>
+            <span className="text-slate-300">Personal callback in 15 min</span>
+          </div>
         </div>
       </section>
 
@@ -73,6 +79,19 @@ export default function Contact() {
               <h3 className="text-[1.2rem] mb-1">Book a free consultation</h3>
               <p className="text-slate-600 text-[0.92rem] mb-3">Tell us your end use, land size and preferred corridor — we&apos;ll send a personalised shortlist with clean-title plots.</p>
               <LeadForm id="contact-lead" interest="Contact Page" cta="Request a Free Consultation" />
+            </div>
+
+            <div className="bg-white border border-[var(--color-line)] rounded-[14px] p-6 mt-5">
+              <span className="eyebrow">How it works</span>
+              <ol className="mt-3 space-y-3 text-slate-700 text-[0.95rem]">
+                <li className="flex gap-3"><span className="w-7 h-7 rounded-full bg-[var(--color-gold)]/15 text-[var(--color-navy)] font-display grid place-items-center text-[0.85rem] shrink-0">1</span><span><b>Share your requirement</b> — fill the form, call, or WhatsApp. Takes 30 seconds.</span></li>
+                <li className="flex gap-3"><span className="w-7 h-7 rounded-full bg-[var(--color-gold)]/15 text-[var(--color-navy)] font-display grid place-items-center text-[0.85rem] shrink-0">2</span><span><b>Get a callback within 15 minutes</b> — Prem picks up his own phone. No call centre, no junior agent.</span></li>
+                <li className="flex gap-3"><span className="w-7 h-7 rounded-full bg-[var(--color-gold)]/15 text-[var(--color-navy)] font-display grid place-items-center text-[0.85rem] shrink-0">3</span><span><b>Free 20-minute strategy call</b> — get a clear plan, the right sectors to consider, an honest market view, and a shortlist of clean-title plots.</span></li>
+                <li className="flex gap-3"><span className="w-7 h-7 rounded-full bg-[var(--color-gold)]/15 text-[var(--color-navy)] font-display grid place-items-center text-[0.85rem] shrink-0">4</span><span><b>Site visits &amp; legal due diligence</b> — all scheduled and coordinated by Prem at no cost to you.</span></li>
+              </ol>
+              <div className="mt-5 rounded-[10px] bg-[var(--color-bg-soft)] border border-[var(--color-line)] p-4">
+                <p className="text-[0.9rem] text-slate-700 m-0"><b className="text-[var(--color-navy)]">100% free for buyers.</b> Prem&apos;s fee comes from the seller / developer side only — never from you. No platform charges, no hidden costs, no &quot;registration&quot; fees. Ever.</p>
+              </div>
             </div>
           </div>
         </div>
