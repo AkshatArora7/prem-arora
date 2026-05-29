@@ -26,95 +26,40 @@ export default function HomePage() {
 
       {/* HERO */}
       <section className="gradient-hero text-white relative overflow-hidden">
-        <div className="container-x relative z-10 pt-20 pb-28 md:pt-24 md:pb-32 grid gap-12 lg:grid-cols-[1.15fr_0.85fr] items-center">
-          <div>
-            <span className="inline-flex items-center gap-2 text-[0.72rem] tracking-[0.18em] uppercase text-[var(--color-gold)]/90 font-semibold">
-              <span className="w-6 h-px bg-[var(--color-gold)]/60" />
-              Greater Noida · Since 1999
-            </span>
-            <h1 className="mt-5 text-white font-display text-[clamp(2rem,4.4vw,3.1rem)] leading-[1.12] font-semibold max-w-[720px] tracking-tight">
-              Industrial &amp; land advisory,<br className="hidden sm:block" />
-              done quietly and correctly.
-            </h1>
-            <p className="text-slate-300 text-[1.02rem] leading-relaxed max-w-[560px] mt-5">
-              I&apos;m <span className="text-white">Prem Arora</span>. For 25+ years I&apos;ve helped manufacturers, NRIs and investors acquire clean-title plots across GNIDA, YEIDA, UPSIDA and private freehold — with end-to-end legal due diligence.
-            </p>
-            <div className="flex flex-wrap gap-2.5 mt-7">
-              <a href={`tel:${site.phone}`} className="btn btn-primary">Call Prem</a>
-              <a href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener" className="btn" style={{background:"transparent",color:"#fff",border:"1px solid rgba(255,255,255,.25)"}}>WhatsApp</a>
-              <Link href="/contact" className="btn" style={{background:"transparent",color:"var(--color-gold)",border:"1px solid transparent"}}>Book a free consultation →</Link>
-            </div>
-            <p className="text-slate-400 text-[0.78rem] mt-4">
-              <span className="text-[var(--color-gold)]">✓ Always free</span> · No buyer-side fees, ever · No obligation
-            </p>
-            <div className="flex flex-wrap gap-x-10 gap-y-4 mt-12 max-w-[640px] text-slate-300">
-              {[
-                ["25+", "Years"],
-                ["500+", "Deals closed"],
-                ["₹600 Cr+", "Land transacted"],
-                ["100%", "Clean title"],
-              ].map(([n, l]) => (
-                <div key={l}>
-                  <div className="text-white font-display text-[1.35rem] leading-none">{n}</div>
-                  <div className="text-[0.72rem] uppercase tracking-[0.14em] text-slate-400 mt-1.5">{l}</div>
-                </div>
-              ))}
-            </div>
+        <div className="container-x relative z-10 pt-24 pb-32 md:pt-32 md:pb-40 max-w-[900px]">
+          <span className="inline-flex items-center gap-2.5 text-[0.7rem] tracking-[0.22em] uppercase text-[var(--color-gold)]/90 font-medium">
+            <span className="w-5 h-px bg-[var(--color-gold)]/50" />
+            Greater Noida · Since 1999
+          </span>
+
+          <h1 className="mt-7 text-white font-display text-[clamp(2.1rem,5vw,3.6rem)] leading-[1.08] font-normal max-w-[760px] tracking-[-0.01em]">
+            Industrial &amp; land advisory,<br className="hidden sm:block" />
+            <span className="text-slate-400">done quietly and correctly.</span>
+          </h1>
+
+          <p className="text-slate-400 text-[1.05rem] leading-[1.7] max-w-[560px] mt-7">
+            For 25 years, helping manufacturers, NRIs and investors acquire clean-title plots across GNIDA, YEIDA and UPSIDA — with end-to-end legal due diligence. Always free for buyers.
+          </p>
+
+          <div className="flex flex-wrap items-center gap-6 mt-10">
+            <a href={`tel:${site.phone}`} className="btn btn-primary">Call Prem</a>
+            <Link href="/contact" className="text-white hover:text-[var(--color-gold)] transition-colors text-[0.95rem] font-medium border-b border-white/20 hover:border-[var(--color-gold)] pb-0.5">
+              Book a free consultation →
+            </Link>
           </div>
 
-          {/* Right credentials card */}
-          <div className="hidden lg:block relative">
-            <div className="absolute -inset-6 rounded-[24px] bg-[var(--color-gold)]/5 blur-2xl pointer-events-none" />
-            <div className="relative rounded-[18px] border border-white/10 bg-white/[0.03] backdrop-blur-sm p-7">
-              <div className="flex items-center gap-4">
-                <div className="w-14 h-14 rounded-full border border-[var(--color-gold)]/50 grid place-items-center font-display text-[var(--color-gold)] text-xl">PA</div>
-                <div>
-                  <div className="text-white font-display text-[1.15rem] leading-tight">Prem Arora</div>
-                  <div className="text-slate-400 text-[0.78rem] tracking-[0.12em] uppercase mt-1">Industrial &amp; Land Consultant</div>
-                </div>
-              </div>
-
-              <hr className="border-white/10 my-6" />
-
-              <ul className="space-y-3.5 text-[0.92rem] text-slate-300">
-                <li className="flex gap-3"><span className="text-[var(--color-gold)] mt-0.5">▸</span><span><span className="text-white">GNIDA, YEIDA &amp; UPSIDA</span> — direct allotment &amp; resale</span></li>
-                <li className="flex gap-3"><span className="text-[var(--color-gold)] mt-0.5">▸</span><span><span className="text-white">Jewar Airport corridor</span> — front-line inventory</span></li>
-                <li className="flex gap-3"><span className="text-[var(--color-gold)] mt-0.5">▸</span><span><span className="text-white">Full legal due diligence</span> — title, mutation, lease, CLU</span></li>
-                <li className="flex gap-3"><span className="text-[var(--color-gold)] mt-0.5">▸</span><span><span className="text-white">NRI advisory</span> — POA, FEMA, repatriation</span></li>
-              </ul>
-
-              <hr className="border-white/10 my-6" />
-
-              <div className="flex items-center justify-between">
-                <div>
-                  <div className="text-[0.7rem] uppercase tracking-[0.16em] text-slate-400">Direct line</div>
-                  <a href={`tel:${site.phone}`} className="text-white font-display text-[1.05rem] mt-1 inline-block hover:text-[var(--color-gold)] transition-colors">{site.phoneDisplay}</a>
-                </div>
-                <a href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener" className="text-[var(--color-gold)] text-[0.88rem] font-semibold hover:underline">WhatsApp →</a>
-              </div>
-            </div>
+          <div className="flex flex-wrap items-center gap-x-8 gap-y-3 mt-20 text-[0.82rem] text-slate-500 border-t border-white/[0.06] pt-8 max-w-[680px]">
+            <span><span className="text-white">25+</span> years</span>
+            <span className="text-white/10">·</span>
+            <span><span className="text-white">500+</span> deals closed</span>
+            <span className="text-white/10">·</span>
+            <span><span className="text-white">₹600 Cr+</span> transacted</span>
+            <span className="text-white/10">·</span>
+            <span><span className="text-white">100%</span> clean title</span>
           </div>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-[80px] pointer-events-none" style={{background:"linear-gradient(180deg,transparent,#fff)"}} />
       </section>
-
-      {/* QUICK CTA CARD */}
-      <div className="container-x">
-        <Reveal className="-mt-16 relative z-20">
-          <div className="bg-white rounded-[14px] shadow-[var(--shadow-lg)] p-5 md:p-7 max-w-[980px] mx-auto grid gap-5 md:grid-cols-[1.3fr_1fr] items-center">
-            <div>
-              <span className="eyebrow">Free 20-min consultation · No fees, ever</span>
-              <h3 className="font-display text-[1.4rem] md:text-[1.6rem] mt-1 text-[var(--color-navy)]">Talk to Prem — no obligation, no sales pressure.</h3>
-              <p className="text-slate-600 mt-2">Share your budget &amp; goal. Prem will personally call back within 15 minutes with a clear plan, the right sectors to consider, and an honest market view. <b className="text-[var(--color-navy)]">100% free for buyers</b> — Prem is paid by the seller / developer side only.</p>
-            </div>
-            <div className="flex flex-col gap-2.5">
-              <a href={`tel:${site.phone}`} className="btn btn-primary btn-block">📞 Call {site.phoneDisplay}</a>
-              <a href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener" className="btn btn-block" style={{background:"#25D366",color:"#fff"}}>💬 WhatsApp Now</a>
-              <Link href="/contact" className="btn btn-ghost btn-block" style={{borderColor:"var(--color-line)",color:"var(--color-navy)"}}>📅 Book a free slot →</Link>
-            </div>
-          </div>
-        </Reveal>
-      </div>
 
       {/* TRUST STRIP */}
       <section className="bg-[var(--color-bg-soft)] border-y border-[var(--color-line)] py-7 mt-10">
