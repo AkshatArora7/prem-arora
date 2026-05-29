@@ -25,35 +25,39 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       {/* HERO */}
-      <section className="gradient-hero text-white relative overflow-hidden min-h-[600px] flex items-center">
-        <div className="container-x relative z-10 pt-24 pb-32">
-          <span className="inline-block px-3 py-1 rounded-full bg-white/10 border border-white/20 text-[0.78rem]">★ 25+ years in Greater Noida • GNIDA · YEIDA · UPSIDA · Freehold • Clean paperwork only</span>
-          <h1 className="mt-4 text-white text-[clamp(2rem,4.8vw,3.4rem)] font-bold max-w-[820px]">
-            Greater Noida&apos;s most trusted <span style={{color:"var(--color-gold)"}}>industrial &amp; land consultant</span> — for 25+ years.
+      <section className="gradient-hero text-white relative overflow-hidden">
+        <div className="container-x relative z-10 pt-20 pb-28 md:pt-24 md:pb-32">
+          <span className="inline-flex items-center gap-2 text-[0.72rem] tracking-[0.18em] uppercase text-[var(--color-gold)]/90 font-semibold">
+            <span className="w-6 h-px bg-[var(--color-gold)]/60" />
+            Greater Noida · Since 1999
+          </span>
+          <h1 className="mt-5 text-white font-display text-[clamp(2rem,4.4vw,3.1rem)] leading-[1.12] font-semibold max-w-[820px] tracking-tight">
+            Industrial &amp; land advisory,<br className="hidden sm:block" />
+            done quietly and correctly.
           </h1>
-          <p className="text-slate-200 text-[1.08rem] max-w-[660px] mt-3">
-            Hi, I&apos;m <b className="text-white">Prem Arora</b>. I help manufacturers, warehousing operators, NRIs and investors buy clean-title industrial plots and land across GNIDA, YEIDA, UPSIDA and private freehold — with full legal due diligence, end to end.
+          <p className="text-slate-300 text-[1.02rem] leading-relaxed max-w-[600px] mt-5">
+            I&apos;m <span className="text-white">Prem Arora</span>. For 25+ years I&apos;ve helped manufacturers, NRIs and investors acquire clean-title plots across GNIDA, YEIDA, UPSIDA and private freehold — with end-to-end legal due diligence.
           </p>
-          <div className="flex flex-wrap gap-3 mt-6">
-            <a href={`tel:${site.phone}`} className="btn btn-primary">📞 Call Prem Now</a>
-            <a href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener" className="btn" style={{background:"#25D366",color:"#fff"}}>💬 WhatsApp Prem</a>
-            <Link href="/contact" className="btn btn-ghost">Book Free Consultation →</Link>
+          <div className="flex flex-wrap gap-2.5 mt-7">
+            <a href={`tel:${site.phone}`} className="btn btn-primary">Call Prem</a>
+            <a href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener" className="btn" style={{background:"transparent",color:"#fff",border:"1px solid rgba(255,255,255,.25)"}}>WhatsApp</a>
+            <Link href="/contact" className="btn" style={{background:"transparent",color:"var(--color-gold)",border:"1px solid transparent"}}>Book a consultation →</Link>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10 max-w-[640px]">
+          <div className="flex flex-wrap gap-x-10 gap-y-4 mt-12 max-w-[640px] text-slate-300">
             {[
-              ["25+", "Years Experience"],
-              ["500+", "Industrial Deals"],
-              ["₹600 Cr+", "Land Closed"],
-              ["100%", "Clean-Title Only"],
+              ["25+", "Years"],
+              ["500+", "Deals closed"],
+              ["₹600 Cr+", "Land transacted"],
+              ["100%", "Clean title"],
             ].map(([n, l]) => (
-              <div key={l} className="border-l-2 pl-3" style={{borderColor:"var(--color-gold)"}}>
-                <b className="block text-white font-display text-[1.55rem]">{n}</b>
-                <span className="text-[#cfd8ea] text-[0.78rem] uppercase tracking-wider">{l}</span>
+              <div key={l}>
+                <div className="text-white font-display text-[1.35rem] leading-none">{n}</div>
+                <div className="text-[0.72rem] uppercase tracking-[0.14em] text-slate-400 mt-1.5">{l}</div>
               </div>
             ))}
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-[120px] pointer-events-none" style={{background:"linear-gradient(180deg,transparent,#fff)"}} />
+        <div className="absolute bottom-0 left-0 right-0 h-[80px] pointer-events-none" style={{background:"linear-gradient(180deg,transparent,#fff)"}} />
       </section>
 
       {/* QUICK CTA CARD */}
