@@ -119,9 +119,9 @@ export default function About() {
               <h3 className="font-display text-2xl text-white m-0">Talk to Prem — one call, full clarity.</h3>
               <p className="text-slate-200 mt-2 mb-4">Free 20-minute consultation. No pressure. Just 28 years of Greater Noida industrial wisdom on your side.</p>
               <div className="flex flex-wrap gap-3">
-                <a className="btn btn-primary" href={`tel:${site.phone}`}>📞 Call {site.phoneDisplay}</a>
-                <a className="btn" style={{background:"#25D366",color:"#fff"}} href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener">💬 WhatsApp Prem</a>
-                <Link className="btn" style={{background:"#fff",color:"var(--color-navy)"}} href="/contact">📅 Book Consultation</Link>
+                <a className="btn btn-primary" href={`tel:${site.phone}`}>Call {site.phoneDisplay}</a>
+                <a className="btn" style={{background:"#25D366",color:"#fff"}} href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener">WhatsApp Prem</a>
+                <Link className="btn" style={{background:"#fff",color:"var(--color-navy)"}} href="/contact">Book Consultation</Link>
               </div>
             </div>
           </div>

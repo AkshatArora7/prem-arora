@@ -56,9 +56,9 @@ export default async function OG() {
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: 22, color: "#cfd8ea" }}>
           <div>premarora.aatechax.com</div>
           <div style={{ display: "flex", gap: 24 }}>
-            <span>📞 Call Direct</span>
-            <span>💬 WhatsApp</span>
-            <span>★ 4.9 / 5</span>
+            <span>Call Direct</span>
+            <span>WhatsApp</span>
+            <span>4.9 / 5</span>
           </div>
         </div>
       </div>

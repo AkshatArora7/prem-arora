@@ -52,9 +52,9 @@ export default function GuidesIndex() {
           <h1 className="text-white mt-1 max-w-[820px]">Greater Noida industrial &amp; land guides — 28 years of expertise, free to read.</h1>
           <p className="text-slate-200 max-w-[760px] mt-3">From your first industrial plot in Ecotech to a YEIDA parcel near Jewar Airport, GNIDA allotments and legal due diligence — Prem&apos;s guides cover every Greater Noida industrial land question with honest, on-ground insight.</p>
           <div className="flex flex-wrap gap-3 mt-6">
-            <a className="btn btn-primary" href={`tel:${site.phone}`}>📞 Call Prem Now</a>
-            <a className="btn" style={{background:"#25D366",color:"#fff"}} href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener">💬 WhatsApp</a>
-            <Link className="btn btn-ghost" href="/contact">📅 Free Consultation →</Link>
+            <a className="btn btn-primary" href={`tel:${site.phone}`}>Call Prem Now</a>
+            <a className="btn" style={{background:"#25D366",color:"#fff"}} href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener">WhatsApp</a>
+            <Link className="btn btn-ghost" href="/contact">Free Consultation →</Link>
           </div>
         </div>
       </section>
@@ -79,9 +79,9 @@ export default function GuidesIndex() {
             <h2 className="text-white">Reading guides is great. A 20-minute call with Prem is faster.</h2>
             <p className="text-slate-200 max-w-[640px] mx-auto mt-2">Skip the research — share your goal and Prem will give you a clear, honest plan.</p>
             <div className="flex flex-wrap justify-center gap-3 mt-6">
-              <a href={`tel:${site.phone}`} className="btn btn-primary">📞 Call {site.phoneDisplay}</a>
-              <a href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener" className="btn" style={{background:"#25D366",color:"#fff"}}>💬 WhatsApp</a>
-              <Link href="/contact" className="btn" style={{background:"#fff",color:"var(--color-navy)"}}>📅 Book Consultation</Link>
+              <a href={`tel:${site.phone}`} className="btn btn-primary">Call {site.phoneDisplay}</a>
+              <a href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener" className="btn" style={{background:"#25D366",color:"#fff"}}>WhatsApp</a>
+              <Link href="/contact" className="btn" style={{background:"#fff",color:"var(--color-navy)"}}>Book Consultation</Link>
             </div>
           </div>
         </div>

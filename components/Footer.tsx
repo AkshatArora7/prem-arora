@@ -16,8 +16,8 @@ export default function Footer() {
             </Link>
             <p className="text-[#cfd6e6] mt-3 max-w-[320px] text-[0.95rem]">Greater Noida&apos;s most trusted industrial &amp; land consultant. 28+ years of clean-title transactions across GNIDA, YEIDA, UPSIDA and private freehold — for manufacturers, warehousing operators, NRIs and investors.</p>
             <div className="flex gap-2.5 mt-3.5">
-              <a className="btn btn-primary btn-sm" href={`tel:${site.phone}`}>📞 Call Now</a>
-              <a className="btn btn-sm" style={{background:"transparent",color:"#fff",border:"1px solid rgba(255,255,255,.3)"}} href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noopener">💬 WhatsApp</a>
+              <a className="btn btn-primary btn-sm" href={`tel:${site.phone}`}>Call Now</a>
+              <a className="btn btn-sm" style={{background:"transparent",color:"#fff",border:"1px solid rgba(255,255,255,.3)"}} href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noopener">WhatsApp</a>
             </div>
           </div>
           <div>
@@ -45,9 +45,9 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="text-white font-sans text-[0.95rem] tracking-[0.08em] uppercase mb-3.5">Contact</h4>
-            <a href={`tel:${site.phone}`} className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">📞 {site.phoneDisplay}</a>
-            <a href={`mailto:${site.email}`} className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">✉ {site.email}</a>
-            <a href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noopener" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">💬 WhatsApp Chat</a>
+            <a href={`tel:${site.phone}`} className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">{site.phoneDisplay}</a>
+            <a href={`mailto:${site.email}`} className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">{site.email}</a>
+            <a href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noopener" className="block py-1.5 text-[0.92rem] hover:text-[var(--color-gold)]">WhatsApp Chat</a>
             <p className="text-[#9aa6c2] text-[0.85rem] mt-2">Office: {site.address}</p>
           </div>
         </div>

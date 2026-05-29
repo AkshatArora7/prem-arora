@@ -140,18 +140,18 @@ export default function HomePage() {
           <Reveal className="mt-10">
             <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
               {[
-                ["🏭","Industrial Plots","GNIDA Ecotech, UPSIDA Surajpur/Kasna and YEIDA industrial sectors — allotment and resale, sized to your operating profile.","Discuss industrial plot"],
-                ["📦","Warehousing &amp; Logistics Land","Grade-A warehouse-grade plots with truck-grade approach roads, ready power and water — for 3PL, e-comm and cold chain.","Find warehouse land"],
-                ["🏗️","Factory Setup Advisory","From land to operational unit — sector pre-qualification, power and water sanction, building plan, fire NOC, environmental clearance.","Plan factory setup"],
-                ["📜","Legal Due Diligence","Title chain, allotment file, encumbrance, litigation search, Section 143 CLU, building plan — every paper reviewed before token.","Get a paperwork audit"],
-                ["🏛️","GNIDA / YEIDA Allotment","Scheme notification tracking, EMD planning, draw &amp; auction support, possession and project-implementation tracking.","Apply for allotment"],
-                ["🌍","NRI Industrial Advisory","FEMA-compliant purchase, NRE/NRO routing, POA execution, GNIDA/YEIDA transfer and remote asset management — done routinely.","I'm an NRI buyer"],
-              ].map(([ico,h,p,cta])=>(
-                <div key={h} className="bg-white border border-[var(--color-line)] rounded-[14px] p-6 hover:border-[var(--color-gold)] hover:-translate-y-1 transition-all flex flex-col">
-                  <div className="w-12 h-12 rounded-xl grid place-items-center text-[var(--color-gold)] text-xl mb-3" style={{background:"linear-gradient(135deg,var(--color-navy),var(--color-navy-2))"}}>{ico}</div>
-                  <h3 className="text-[1.15rem] font-semibold mb-1" dangerouslySetInnerHTML={{__html:h}} />
-                  <p className="text-slate-600 flex-1" dangerouslySetInnerHTML={{__html:p}} />
-                  <a href={`https://wa.me/${site.whatsapp}?text=Hi%20Prem%20ji%2C%20${encodeURIComponent(cta)}`} target="_blank" rel="noopener" className="mt-3 text-[var(--color-navy)] font-semibold hover:text-[var(--color-gold)]">{cta} →</a>
+                ["Industrial Plots","GNIDA Ecotech, UPSIDA Surajpur/Kasna and YEIDA industrial sectors — allotment and resale, sized to your operating profile.","Discuss industrial plot"],
+                ["Warehousing &amp; Logistics Land","Grade-A warehouse-grade plots with truck-grade approach roads, ready power and water — for 3PL, e-comm and cold chain.","Find warehouse land"],
+                ["Factory Setup Advisory","From land to operational unit — sector pre-qualification, power and water sanction, building plan, fire NOC, environmental clearance.","Plan factory setup"],
+                ["Legal Due Diligence","Title chain, allotment file, encumbrance, litigation search, Section 143 CLU, building plan — every paper reviewed before token.","Get a paperwork audit"],
+                ["GNIDA / YEIDA Allotment","Scheme notification tracking, EMD planning, draw &amp; auction support, possession and project-implementation tracking.","Apply for allotment"],
+                ["NRI Industrial Advisory","FEMA-compliant purchase, NRE/NRO routing, POA execution, GNIDA/YEIDA transfer and remote asset management — done routinely.","I'm an NRI buyer"],
+              ].map(([h,p,cta], i)=>(
+                <div key={h} className="bg-white border border-[var(--color-line)] rounded-[14px] p-6 hover:border-[var(--color-navy)] hover:-translate-y-1 transition-all flex flex-col">
+                  <span className="text-[0.72rem] tracking-[0.18em] uppercase text-[var(--color-muted)] mb-3">{String(i+1).padStart(2,"0")}</span>
+                  <h3 className="text-[1.15rem] font-display mb-2 text-[var(--color-navy)]" dangerouslySetInnerHTML={{__html:h}} />
+                  <p className="text-[var(--color-muted)] flex-1 text-[0.95rem] leading-relaxed" dangerouslySetInnerHTML={{__html:p}} />
+                  <a href={`https://wa.me/${site.whatsapp}?text=Hi%20Prem%20ji%2C%20${encodeURIComponent(cta)}`} target="_blank" rel="noopener" className="mt-4 text-[var(--color-navy)] font-medium text-[0.88rem] tracking-wide hover:text-[var(--color-muted)] transition border-b border-[var(--color-line)] hover:border-[var(--color-navy)] pb-0.5 self-start">{cta} →</a>
                 </div>
               ))}
             </div>
@@ -170,17 +170,17 @@ export default function HomePage() {
           <Reveal className="mt-10">
             <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
               {[
-                ["🏆","Quarter-Century of Local Mastery","Prem has watched Greater Noida grow from farmland to an industrial powerhouse. He knows every Ecotech sector, every authority counter, every paperwork pitfall — first-hand."],
-                ["📜","Paperwork-First, Always","No grey-zone deals. Allotment chain, lease deed, No-Dues, EC, litigation search and Section 143 CLU verified before you commit a single rupee."],
-                ["🤝","Flat Advisory Fee, Not Commission","Prem charges a flat advisory fee — so the incentive is to find the right plot for your operating profile, not the most expensive one available."],
-                ["🧭","Personal, Not Transactional","Prem takes on a limited number of engagements each year — by choice. Every client gets unhurried attention from shortlist to mutation."],
-                ["🌐","NRI &amp; Out-of-Town Specialist","FEMA-compliant routes, POA execution, GNIDA/YEIDA transfer and remote asset management — done routinely for NRI manufacturers and investors."],
-                ["🏗️","End-to-End — Land to Operations","Plot selection, registration, mutation, building plan, power and water sanction, environmental and fire NOCs — coordinated through one accountable point of contact."],
-              ].map(([ico,h,p])=>(
-                <div key={h} className="bg-white border border-[var(--color-line)] rounded-[14px] p-6 hover:border-[var(--color-gold)] hover:-translate-y-1 transition-all">
-                  <div className="w-12 h-12 rounded-xl grid place-items-center text-[var(--color-gold)] text-xl mb-3" style={{background:"linear-gradient(135deg,var(--color-navy),var(--color-navy-2))"}}>{ico}</div>
-                  <h3 className="text-[1.15rem] font-semibold mb-1" dangerouslySetInnerHTML={{__html:h}} />
-                  <p className="text-slate-600" dangerouslySetInnerHTML={{__html:p}} />
+                ["Quarter-Century of Local Mastery","Prem has watched Greater Noida grow from farmland to an industrial powerhouse. He knows every Ecotech sector, every authority counter, every paperwork pitfall — first-hand."],
+                ["Paperwork-First, Always","No grey-zone deals. Allotment chain, lease deed, No-Dues, EC, litigation search and Section 143 CLU verified before you commit a single rupee."],
+                ["Flat Advisory Fee, Not Commission","Prem charges a flat advisory fee — so the incentive is to find the right plot for your operating profile, not the most expensive one available."],
+                ["Personal, Not Transactional","Prem takes on a limited number of engagements each year — by choice. Every client gets unhurried attention from shortlist to mutation."],
+                ["NRI &amp; Out-of-Town Specialist","FEMA-compliant routes, POA execution, GNIDA/YEIDA transfer and remote asset management — done routinely for NRI manufacturers and investors."],
+                ["End-to-End — Land to Operations","Plot selection, registration, mutation, building plan, power and water sanction, environmental and fire NOCs — coordinated through one accountable point of contact."],
+              ].map(([h,p], i)=>(
+                <div key={h} className="bg-white border border-[var(--color-line)] rounded-[14px] p-6 hover:border-[var(--color-navy)] hover:-translate-y-1 transition-all">
+                  <span className="text-[0.72rem] tracking-[0.18em] uppercase text-[var(--color-muted)] mb-3 block">{String(i+1).padStart(2,"0")}</span>
+                  <h3 className="text-[1.15rem] font-display mb-2 text-[var(--color-navy)]" dangerouslySetInnerHTML={{__html:h}} />
+                  <p className="text-[var(--color-muted)] text-[0.95rem] leading-relaxed" dangerouslySetInnerHTML={{__html:p}} />
                 </div>
               ))}
             </div>
@@ -198,14 +198,14 @@ export default function HomePage() {
                 <h2 className="text-white mt-1">Tell Prem your goal — get a clear plan.</h2>
                 <p className="text-slate-200 mt-2">Share a few details and Prem will personally call back with a tailored shortlist of sectors, builders &amp; budgets that fit your life.</p>
                 <ul className="mt-4 text-slate-200 space-y-1.5 list-none p-0">
-                  <li>✓ 100% free, no obligation</li>
-                  <li>✓ Personal call from Prem — not an assistant</li>
-                  <li>✓ Honest pros, cons &amp; price expectations</li>
-                  <li>✓ Best-price negotiation handled by Prem</li>
+                  <li>— 100% free, no obligation</li>
+                  <li>— Personal call from Prem, not an assistant</li>
+                  <li>— Honest pros, cons &amp; price expectations</li>
+                  <li>— Best-price negotiation handled by Prem</li>
                 </ul>
                 <div className="flex flex-wrap gap-3 mt-5">
-                  <a href={`tel:${site.phone}`} className="btn btn-primary">📞 Call {site.phoneDisplay}</a>
-                  <a href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener" className="btn" style={{background:"#25D366",color:"#fff"}}>💬 WhatsApp</a>
+                  <a href={`tel:${site.phone}`} className="btn btn-primary">Call {site.phoneDisplay}</a>
+                  <a href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener" className="btn" style={{background:"#25D366",color:"#fff"}}>WhatsApp</a>
                 </div>
               </div>
               <LeadForm id="home-lead" interest="Home — Free Consultation with Prem" />
@@ -256,24 +256,24 @@ export default function HomePage() {
           <Reveal className="mt-8">
             <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
               {[
-                ["🏭","Industrial Plots Guide","GNIDA, UPSIDA & Ecotech industrial plots — pricing, paperwork & resale.","/seo/industrial-plots-greater-noida"],
-                ["🛣️","Yamuna Expressway / YEIDA","Industrial land along the Yamuna Expressway — the Jewar belt opportunity.","/seo/industrial-land-yamuna-expressway-yeida"],
-                ["✈️","Land Near Jewar Airport","Cargo, logistics &amp; MRO — best pockets within 20 km of Jewar.","/seo/industrial-land-jewar-airport"],
-                ["🗺️","Ecotech Sectors Map","Ecotech 1 to 21 — plot sizes, infrastructure &amp; price bands.","/seo/ecotech-industrial-sectors-greater-noida"],
-                ["📦","Warehouse &amp; Logistics","Grade-A warehouse land — 3PL, cold chain, e-comm fulfilment.","/seo/warehouse-logistics-land-greater-noida"],
-                ["🏢","Commercial Plots","Mixed-use, SCO retail and office plots — sectors that actually rent.","/seo/commercial-plots-greater-noida"],
-                ["⚖️","Freehold vs Leasehold","Which tenure suits your use case &amp; exit horizon — full comparison.","/seo/freehold-vs-leasehold-land-greater-noida"],
-                ["📜","Legal Due Diligence","The complete pre-purchase paperwork checklist for industrial land.","/seo/legal-due-diligence-industrial-land-greater-noida"],
-                ["🔎","Title Verification — UP","Bhulekh, Khatauni, Khasra, Section 143 — UP land records explained.","/seo/title-verification-land-uttar-pradesh"],
-                ["🏛️","GNIDA Allotment","How the GNIDA industrial scheme works — eligibility, EMD &amp; draw.","/seo/gnida-plot-allotment-process"],
-                ["🌍","NRI Land Buyer Guide","FEMA, NRE/NRO, POA &amp; GNIDA/YEIDA transfer for NRIs.","/seo/nri-buy-industrial-land-greater-noida"],
-                ["🏗️","Factory Setup Land","From plot to operational factory — approvals stack &amp; workforce.","/seo/factory-setup-land-greater-noida"],
-                ["📊","Market Trends 2026","Industrial land prices, demand drivers &amp; the 5-year outlook.","/seo/industrial-real-estate-market-trends-greater-noida-2026"],
-              ].map(([ico,h,p,href])=>(
-                <Link key={h} href={href} className="bg-white border border-[var(--color-line)] rounded-[14px] p-6 hover:border-[var(--color-gold)] hover:-translate-y-1 transition-all">
-                  <div className="w-12 h-12 rounded-xl grid place-items-center text-[var(--color-gold)] text-xl mb-3" style={{background:"linear-gradient(135deg,var(--color-navy),var(--color-navy-2))"}}>{ico}</div>
-                  <h3 className="text-[1.1rem] font-semibold mb-1" dangerouslySetInnerHTML={{__html:h}} />
-                  <p className="text-slate-600 text-[0.92rem]" dangerouslySetInnerHTML={{__html:p}} />
+                ["Industrial Plots Guide","GNIDA, UPSIDA & Ecotech industrial plots — pricing, paperwork & resale.","/seo/industrial-plots-greater-noida"],
+                ["Yamuna Expressway / YEIDA","Industrial land along the Yamuna Expressway — the Jewar belt opportunity.","/seo/industrial-land-yamuna-expressway-yeida"],
+                ["Land Near Jewar Airport","Cargo, logistics &amp; MRO — best pockets within 20 km of Jewar.","/seo/industrial-land-jewar-airport"],
+                ["Ecotech Sectors Map","Ecotech 1 to 21 — plot sizes, infrastructure &amp; price bands.","/seo/ecotech-industrial-sectors-greater-noida"],
+                ["Warehouse &amp; Logistics","Grade-A warehouse land — 3PL, cold chain, e-comm fulfilment.","/seo/warehouse-logistics-land-greater-noida"],
+                ["Commercial Plots","Mixed-use, SCO retail and office plots — sectors that actually rent.","/seo/commercial-plots-greater-noida"],
+                ["Freehold vs Leasehold","Which tenure suits your use case &amp; exit horizon — full comparison.","/seo/freehold-vs-leasehold-land-greater-noida"],
+                ["Legal Due Diligence","The complete pre-purchase paperwork checklist for industrial land.","/seo/legal-due-diligence-industrial-land-greater-noida"],
+                ["Title Verification — UP","Bhulekh, Khatauni, Khasra, Section 143 — UP land records explained.","/seo/title-verification-land-uttar-pradesh"],
+                ["GNIDA Allotment","How the GNIDA industrial scheme works — eligibility, EMD &amp; draw.","/seo/gnida-plot-allotment-process"],
+                ["NRI Land Buyer Guide","FEMA, NRE/NRO, POA &amp; GNIDA/YEIDA transfer for NRIs.","/seo/nri-buy-industrial-land-greater-noida"],
+                ["Factory Setup Land","From plot to operational factory — approvals stack &amp; workforce.","/seo/factory-setup-land-greater-noida"],
+                ["Market Trends 2026","Industrial land prices, demand drivers &amp; the 5-year outlook.","/seo/industrial-real-estate-market-trends-greater-noida-2026"],
+              ].map(([h,p,href])=>(
+                <Link key={h} href={href} className="bg-white border border-[var(--color-line)] rounded-[14px] p-6 hover:border-[var(--color-navy)] hover:-translate-y-1 transition-all group block">
+                  <h3 className="text-[1.05rem] font-display mb-2 text-[var(--color-navy)] group-hover:text-[var(--color-navy-2)]" dangerouslySetInnerHTML={{__html:h}} />
+                  <p className="text-[var(--color-muted)] text-[0.92rem] leading-relaxed" dangerouslySetInnerHTML={{__html:p}} />
+                  <span className="mt-3 inline-block text-[0.8rem] tracking-[0.14em] uppercase text-[var(--color-navy)] border-b border-[var(--color-line)] group-hover:border-[var(--color-navy)] pb-0.5">Read guide →</span>
                 </Link>
               ))}
             </div>
@@ -299,9 +299,9 @@ export default function HomePage() {
             <h2 className="text-white">Ready for an honest conversation about your property?</h2>
             <p className="text-slate-200 max-w-[640px] mx-auto mt-2">One call with Prem can save you lakhs and months of confusion. Free, no-obligation, and you stay in full control.</p>
             <div className="flex flex-wrap justify-center gap-3 mt-6">
-              <a href={`tel:${site.phone}`} className="btn btn-primary">📞 Call Prem Now</a>
-              <a href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener" className="btn" style={{background:"#25D366",color:"#fff"}}>💬 WhatsApp</a>
-              <Link href="/contact" className="btn" style={{background:"#fff",color:"var(--color-navy)"}}>📅 Book Consultation</Link>
+              <a href={`tel:${site.phone}`} className="btn btn-primary">Call Prem Now</a>
+              <a href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener" className="btn" style={{background:"#25D366",color:"#fff"}}>WhatsApp</a>
+              <Link href="/contact" className="btn" style={{background:"#fff",color:"var(--color-navy)"}}>Book Consultation</Link>
             </div>
           </div>
         </div>

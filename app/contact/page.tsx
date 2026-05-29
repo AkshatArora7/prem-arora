@@ -27,7 +27,7 @@ export default function Contact() {
           <h1 className="text-white">Let&apos;s find your Greater Noida industrial land</h1>
           <p className="text-slate-200 max-w-[720px] mt-2">Tell us about your factory, warehouse or investment plan — Prem will personally call you back within 15 minutes — or reach us directly on phone or WhatsApp.</p>
           <div className="inline-flex flex-wrap items-center gap-x-5 gap-y-2 mt-5 px-4 py-2.5 rounded-full bg-white/[0.06] border border-white/15 text-[0.86rem]">
-            <span className="text-[var(--color-gold)] font-semibold">✓ 100% Free</span>
+            <span className="text-[var(--color-gold)] font-semibold tracking-wide">100% Free</span>
             <span className="text-slate-300">No buyer-side fees</span>
             <span className="text-slate-300">No obligation</span>
             <span className="text-slate-300">Personal callback in 15 min</span>
@@ -42,25 +42,25 @@ export default function Contact() {
             <p className="text-slate-600">We&apos;re open 9 AM to 9 PM, all 7 days. Walk in to our Greater Noida office, or reach us on call/WhatsApp.</p>
 
             <div className="grid sm:grid-cols-2 gap-3 mt-4">
-              <a className="bg-white border border-[var(--color-line)] rounded-[12px] p-4 hover:border-[var(--color-gold)]" href={`tel:${site.phone}`}>
-                <div className="text-2xl">📞</div>
-                <b className="block text-[var(--color-navy)] mt-1">Call us</b>
-                <span className="text-slate-600 text-[0.92rem]">{site.phoneDisplay}</span>
+              <a className="bg-white border border-[var(--color-line)] rounded-[12px] p-4 hover:border-[var(--color-navy)] transition" href={`tel:${site.phone}`}>
+                <span className="text-[0.7rem] tracking-[0.18em] uppercase text-[var(--color-muted)]">01 — Phone</span>
+                <b className="block font-display text-[1.05rem] text-[var(--color-navy)] mt-1">Call us</b>
+                <span className="text-[var(--color-muted)] text-[0.92rem]">{site.phoneDisplay}</span>
               </a>
-              <a className="bg-white border border-[var(--color-line)] rounded-[12px] p-4 hover:border-[var(--color-gold)]" href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noopener">
-                <div className="text-2xl">💬</div>
-                <b className="block text-[var(--color-navy)] mt-1">WhatsApp</b>
-                <span className="text-slate-600 text-[0.92rem]">Instant chat — usually replies in 5 min</span>
+              <a className="bg-white border border-[var(--color-line)] rounded-[12px] p-4 hover:border-[var(--color-navy)] transition" href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noopener">
+                <span className="text-[0.7rem] tracking-[0.18em] uppercase text-[var(--color-muted)]">02 — Chat</span>
+                <b className="block font-display text-[1.05rem] text-[var(--color-navy)] mt-1">WhatsApp</b>
+                <span className="text-[var(--color-muted)] text-[0.92rem]">Instant chat — usually replies in 5 min</span>
               </a>
-              <a className="bg-white border border-[var(--color-line)] rounded-[12px] p-4 hover:border-[var(--color-gold)]" href={`mailto:${site.email}`}>
-                <div className="text-2xl">✉</div>
-                <b className="block text-[var(--color-navy)] mt-1">Email</b>
-                <span className="text-slate-600 text-[0.92rem]">{site.email}</span>
+              <a className="bg-white border border-[var(--color-line)] rounded-[12px] p-4 hover:border-[var(--color-navy)] transition" href={`mailto:${site.email}`}>
+                <span className="text-[0.7rem] tracking-[0.18em] uppercase text-[var(--color-muted)]">03 — Email</span>
+                <b className="block font-display text-[1.05rem] text-[var(--color-navy)] mt-1">Email</b>
+                <span className="text-[var(--color-muted)] text-[0.92rem]">{site.email}</span>
               </a>
               <div className="bg-white border border-[var(--color-line)] rounded-[12px] p-4">
-                <div className="text-2xl">📍</div>
-                <b className="block text-[var(--color-navy)] mt-1">Office</b>
-                <span className="text-slate-600 text-[0.92rem]">{site.address}</span>
+                <span className="text-[0.7rem] tracking-[0.18em] uppercase text-[var(--color-muted)]">04 — Visit</span>
+                <b className="block font-display text-[1.05rem] text-[var(--color-navy)] mt-1">Office</b>
+                <span className="text-[var(--color-muted)] text-[0.92rem]">{site.address}</span>
               </div>
             </div>
 

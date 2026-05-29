@@ -19,7 +19,7 @@ export default function ExitIntentModal() {
   return (
     <div role="dialog" aria-modal="true" className="fixed inset-0 z-[80] bg-[rgba(11,29,57,.6)] flex items-center justify-center p-5 modal-fade" onClick={(e) => { if (e.target === e.currentTarget) setOpen(false); }}>
       <div className="bg-white rounded-2xl max-w-[480px] w-full p-7 relative shadow-[var(--shadow-lg)] modal-pop">
-        <button onClick={() => setOpen(false)} aria-label="Close" className="absolute top-2.5 right-2.5 w-[34px] h-[34px] rounded-full bg-slate-100 hover:bg-slate-200">✕</button>
+        <button onClick={() => setOpen(false)} aria-label="Close" className="absolute top-2.5 right-2.5 w-[34px] h-[34px] rounded-full bg-slate-100 hover:bg-slate-200 text-[1.1rem] leading-none">&times;</button>
         <span className="eyebrow">Wait — Don&apos;t leave empty-handed</span>
         <h3 className="mt-2 mb-2 text-xl font-display">Get the best deal on Greater Noida industrial land</h3>
         <p className="text-slate-600 mb-3 text-[0.95rem]">Drop your number and we&apos;ll send you this week&apos;s <b>clean-title industrial plot list</b> + a free 15-min consultation.</p>

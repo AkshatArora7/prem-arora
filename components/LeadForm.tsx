@@ -47,7 +47,7 @@ export default function LeadForm({
     <form onSubmit={onSubmit} className={wrap} id={id}>
       {sent && (
         <div className="bg-emerald-50 text-emerald-800 border border-emerald-200 px-3.5 py-3 rounded-[10px] mb-3 text-sm">
-          ✅ Thank you! Our Greater Noida expert will reach out within 15 minutes.
+          Thank you. Prem will personally call you back within 15 minutes.
         </div>
       )}
       {fields.includes("name") && fields.includes("phone") ? (
