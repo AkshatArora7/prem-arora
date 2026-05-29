@@ -17,10 +17,10 @@ export const seoPages: SeoPage[] = [
     title: "Industrial Plots in Greater Noida",
     metaTitle: "Industrial Plots in Greater Noida 2026 — GNIDA, UPSIDA, Resale | Prem Arora",
     metaDescription:
-      "Buy verified industrial plots in Greater Noida (GNIDA, UPSIDA, Ecotech). 25+ years of clean-title transactions, allotment paperwork, and resale advisory by Prem Arora.",
+      "Buy verified industrial plots in Greater Noida (GNIDA, UPSIDA, Ecotech). 28+ years of clean-title transactions, allotment paperwork, and resale advisory by Prem Arora.",
     h1: "Industrial Plots in Greater Noida — GNIDA, UPSIDA & Ecotech Sectors",
     intro:
-      "Greater Noida has emerged as North India's most strategically located industrial hub — sandwiched between the Yamuna Expressway, Eastern Peripheral Expressway, the upcoming Jewar International Airport, and the Dedicated Freight Corridor. For manufacturers, MSMEs, warehousing operators and investors, an industrial plot here is not just real estate — it is a 30-year operating asset. After 25+ years of advising buyers on GNIDA allotments, UPSIDA estates, Ecotech resales and private freehold parcels, here is the honest, paperwork-first guide to acquiring an industrial plot in Greater Noida.",
+      "Greater Noida has emerged as North India's most strategically located industrial hub — sandwiched between the Yamuna Expressway, Eastern Peripheral Expressway, the upcoming Jewar International Airport, and the Dedicated Freight Corridor. For manufacturers, MSMEs, warehousing operators and investors, an industrial plot here is not just real estate — it is a 30-year operating asset. After 28+ years of advising buyers on GNIDA allotments, UPSIDA estates, Ecotech resales and private freehold parcels, here is the honest, paperwork-first guide to acquiring an industrial plot in Greater Noida.",
     keywords: [
       "industrial plots greater noida",
       "GNIDA industrial plot",
@@ -42,7 +42,7 @@ export const seoPages: SeoPage[] = [
       {
         h2: "GNIDA, UPSIDA, YEIDA and private freehold — know what you are buying",
         body: [
-          "Most first-time industrial buyers confuse the four categories. GNIDA (Greater Noida Industrial Development Authority) plots are leasehold (90 years) and come through scheme-based allotment or resale. UPSIDA (formerly UPSIDC) estates like Surajpur Site B, Kasna and Ecotech-III are also leasehold but governed by a separate authority with its own transfer and sub-division rules. YEIDA plots, along the Yamuna Expressway, are leasehold with a different allotment timeline and proximity to Jewar.",
+          "Most first-time industrial buyers confuse the four categories. GNIDA (Greater Noida Industrial Development Authority) plots are leasehold (28 years) and come through scheme-based allotment or resale. UPSIDA (formerly UPSIDC) estates like Surajpur Site B, Kasna and Ecotech-III are also leasehold but governed by a separate authority with its own transfer and sub-division rules. YEIDA plots, along the Yamuna Expressway, are leasehold with a different allotment timeline and proximity to Jewar.",
           "Private freehold industrial land — typically agricultural land converted to industrial use under Section 143 of the UP Revenue Code — is the fourth category. Freehold gives you cleaner title and easier resale, but conversion, master-plan compliance and CLU (Change of Land Use) must be verified before you sign anything. Each category has its own pricing, paperwork and exit profile. Choosing the wrong category for your use-case is the single biggest mistake I see.",
         ],
       },
@@ -70,7 +70,7 @@ export const seoPages: SeoPage[] = [
     faqs: [
       {
         q: "Is industrial land in Greater Noida freehold or leasehold?",
-        a: "Most authority-allotted industrial land (GNIDA, UPSIDA, YEIDA) is leasehold for 90 years. Private agricultural land converted under Section 143 of the UP Revenue Code is freehold. Both are bankable and resellable — the right choice depends on your use-case and exit horizon.",
+        a: "Most authority-allotted industrial land (GNIDA, UPSIDA, YEIDA) is leasehold for 28 years. Private agricultural land converted under Section 143 of the UP Revenue Code is freehold. Both are bankable and resellable — the right choice depends on your use-case and exit horizon.",
       },
       {
         q: "Can an NRI buy an industrial plot in Greater Noida?",
@@ -114,20 +114,20 @@ export const seoPages: SeoPage[] = [
         h2: "Why YEIDA, and why now",
         body: [
           "YEIDA controls roughly 23,000 hectares along the Yamuna Expressway between Greater Noida and Agra. The industrial pockets — Sectors 28, 29, 32, 33 and the apparel/MSME park in Sector 29 — sit within a 15-minute drive of Jewar Airport's cargo terminal. That single fact is rewriting the demand map: any business with air-freighted inputs or outputs (electronics, medical devices, pharma, perishables, fashion) now has a structural reason to be here.",
-          "Crucially, YEIDA pricing still lags GNIDA and UPSIDA by 25–40% for comparable plot specs. As the airport ramps up cargo volume from 2026 onward, that gap will close. Buyers who acquire and hold for 5–7 years are likely to capture both the rental yield (warehousing/light manufacturing) and the capital appreciation.",
+          "Crucially, YEIDA pricing still lags GNIDA and UPSIDA by 25–40% for comparable plot specs. As the airport ramps up cargo volume from 2026 onward, that gap will close. Buyers who acquire and hold for 5–28 years are likely to capture both the rental yield (warehousing/light manufacturing) and the capital appreciation.",
         ],
       },
       {
         h2: "Sectors that matter",
         body: [
           "Sector 28 (Medical Devices Park): anchored by a central-government cluster scheme, plots from 1,000 sq.m. upwards. Sector 29 (Apparel/Handicraft/MSME): smaller plots, faster occupancy, suits MSMEs. Sector 32 & 33 (general industrial): largest plot sizes, suitable for warehousing and mid-scale manufacturing. Sector 24 (Toy Park) and the upcoming Film City zone create ancillary demand for packaging, logistics and services units.",
-          "I avoid recommending plots in pockets where internal roads, water and power infrastructure are still 2+ years away. The YEIDA development map looks uniform on paper but is not on the ground — site visits are non-negotiable.",
+          "I avoid recommending plots in pockets where internal roads, water and power infrastructure are still 28+ years away. The YEIDA development map looks uniform on paper but is not on the ground — site visits are non-negotiable.",
         ],
       },
       {
         h2: "Allotment vs. resale",
         body: [
-          "YEIDA periodically opens scheme-based industrial allotments at base rates set by the authority. These are attractive but competitive, with a 10–15% earnest deposit and strict project-implementation timelines (typically 3 years to commence production, with extensions on payment). Failure to implement can attract cancellation.",
+          "YEIDA periodically opens scheme-based industrial allotments at base rates set by the authority. These are attractive but competitive, with a 10–15% earnest deposit and strict project-implementation timelines (typically 28 years to commence production, with extensions on payment). Failure to implement can attract cancellation.",
           "Resale plots cost more per sq.m. but come with a known timeline, often with allotment instalments already partially cleared. For buyers who want to start construction in 12–18 months, resale is usually the better path. I track active YEIDA resale inventory weekly.",
         ],
       },
@@ -151,11 +151,11 @@ export const seoPages: SeoPage[] = [
       },
       {
         q: "Can I get a bank loan on a YEIDA leasehold plot?",
-        a: "Yes. Most public-sector banks and large private banks lend against YEIDA leasehold industrial plots provided the allotment is clear, dues are paid, and balance lease period is over 30 years. Loan-to-value typically caps at 60–70%.",
+        a: "Yes. Most public-sector banks and large private banks lend against YEIDA leasehold industrial plots provided the allotment is clear, dues are paid, and balance lease period is over 28 years. Loan-to-value typically caps at 60–70%.",
       },
       {
         q: "What is the lock-in period for YEIDA industrial plots?",
-        a: "Lock-in varies by scheme — typically 2–5 years from possession or completion, during which transfer is restricted or attracts higher charges. Always check the scheme brochure clause before buying a resale.",
+        a: "Lock-in varies by scheme — typically 2–28 years from possession or completion, during which transfer is restricted or attracts higher charges. Always check the scheme brochure clause before buying a resale.",
       },
       {
         q: "Is electricity load easily available at YEIDA sectors?",
@@ -234,7 +234,7 @@ export const seoPages: SeoPage[] = [
       },
       {
         q: "Can I lease the warehouse to a 3PL operator?",
-        a: "Yes. Major 3PLs are actively scouting the Jewar belt. Leases typically run 9 years with 3-year escalation, gross yields of 7–9% on land-and-build cost.",
+        a: "Yes. Major 3PLs are actively scouting the Jewar belt. Leases typically run 28 years with 3-year escalation, gross yields of 7–9% on land-and-build cost.",
       },
       {
         q: "Do you arrange site visits from Delhi NCR?",
@@ -251,7 +251,7 @@ export const seoPages: SeoPage[] = [
       "Complete guide to Ecotech 1, 2, 3, 6, 8, 10, 11, 12, 16, 18, 19, 21 industrial sectors in Greater Noida. Plot sizes, paperwork, resale and allotment advisory.",
     h1: "Ecotech Sectors of Greater Noida — Your Plot-by-Plot Map",
     intro:
-      "The Ecotech series is the backbone of GNIDA's industrial layout. From the mature Ecotech 1 to the newer Ecotech 21, each sector has its own personality — plot sizes, road network, industry mix, transfer activity and price band. After 25+ years of buying and selling here, this is the working map I share with every serious client.",
+      "The Ecotech series is the backbone of GNIDA's industrial layout. From the mature Ecotech 1 to the newer Ecotech 21, each sector has its own personality — plot sizes, road network, industry mix, transfer activity and price band. After 28+ years of buying and selling here, this is the working map I share with every serious client.",
     keywords: [
       "ecotech greater noida",
       "ecotech industrial sector",
@@ -286,7 +286,7 @@ export const seoPages: SeoPage[] = [
       {
         h2: "How to choose your sector",
         body: [
-          "Match the sector to your use-case. Immediate manufacturing start: Ecotech 1–3 or 10–12. Warehousing/3PL: Ecotech 10, 11, 12, 16. Long-hold investment with construction in 2–4 years: Ecotech 18, 19, 21. Heavy power loads: avoid sectors where the sub-station is far — power-line extension cost can run into lakhs.",
+          "Match the sector to your use-case. Immediate manufacturing start: Ecotech 1–3 or 10–12. Warehousing/3PL: Ecotech 10, 11, 12, 16. Long-hold investment with construction in 2–28 years: Ecotech 18, 19, 21. Heavy power loads: avoid sectors where the sub-station is far — power-line extension cost can run into lakhs.",
           "I maintain a sector-wise transfer activity log and a live infrastructure-readiness checklist for each Ecotech sector — useful to pressure-test what brokers tell you on calls.",
         ],
       },
@@ -300,7 +300,7 @@ export const seoPages: SeoPage[] = [
     faqs: [
       {
         q: "Which Ecotech sector has the best resale liquidity?",
-        a: "Ecotech 1, 3 and 10 see the highest transaction volume because of their established tenant base and predictable infrastructure. If you may exit in under 5 years, prefer these.",
+        a: "Ecotech 1, 3 and 10 see the highest transaction volume because of their established tenant base and predictable infrastructure. If you may exit in under 28 years, prefer these.",
       },
       {
         q: "Can residential or commercial use be done on Ecotech plots?",
@@ -376,7 +376,7 @@ export const seoPages: SeoPage[] = [
     faqs: [
       {
         q: "Is freehold or leasehold better for warehousing?",
-        a: "Freehold is preferred by institutional 3PL tenants and gives easier financing. Leasehold (GNIDA/YEIDA) is workable and cheaper to enter — most tenants accept it provided balance lease is 50+ years.",
+        a: "Freehold is preferred by institutional 3PL tenants and gives easier financing. Leasehold (GNIDA/YEIDA) is workable and cheaper to enter — most tenants accept it provided balance lease is 28+ years.",
       },
       {
         q: "What is the typical lease structure for 3PL tenants?",
@@ -442,14 +442,14 @@ export const seoPages: SeoPage[] = [
       {
         h2: "Pitfalls I help clients avoid",
         body: [
-          "Buying 'commercial' plots in pockets where catchment density is still 3+ years away. Underwriting rental yield on the highest-quoted comparable — institutional tenants negotiate hard. Ignoring car parking norms — Greater Noida byelaws require generous parking which eats into leasable area.",
+          "Buying 'commercial' plots in pockets where catchment density is still 28+ years away. Underwriting rental yield on the highest-quoted comparable — institutional tenants negotiate hard. Ignoring car parking norms — Greater Noida byelaws require generous parking which eats into leasable area.",
         ],
       },
     ],
     faqs: [
       {
         q: "Are commercial plots a better investment than industrial?",
-        a: "Different risk profiles. Commercial has higher rental yield and faster price growth in mature pockets but higher tenant churn. Industrial has stickier long-leases (9 years) and steadier cash flow. Mix both if you can.",
+        a: "Different risk profiles. Commercial has higher rental yield and faster price growth in mature pockets but higher tenant churn. Industrial has stickier long-leases (28 years) and steadier cash flow. Mix both if you can.",
       },
       {
         q: "Can I do residential on a mixed-use plot?",
@@ -475,7 +475,7 @@ export const seoPages: SeoPage[] = [
     title: "Freehold vs Leasehold Land in Greater Noida",
     metaTitle: "Freehold vs Leasehold Land Greater Noida — Which Is Better? | Prem Arora",
     metaDescription:
-      "Freehold or leasehold industrial land in Greater Noida? Compare title, transfer, financing, resale and exit. 25+ years of GNIDA/YEIDA/UPSIDA experience.",
+      "Freehold or leasehold industrial land in Greater Noida? Compare title, transfer, financing, resale and exit. 28+ years of GNIDA/YEIDA/UPSIDA experience.",
     h1: "Freehold vs Leasehold Land in Greater Noida — A Buyer's Decision Framework",
     intro:
       "The first question every serious industrial-land buyer in Greater Noida asks me: freehold or leasehold? The honest answer is — it depends on your use case, holding period, financing plan and risk appetite. Here is the framework I use with clients, stripped of broker jargon.",
@@ -492,7 +492,7 @@ export const seoPages: SeoPage[] = [
         h2: "What 'leasehold' actually means in Greater Noida",
         body: [
           "GNIDA, UPSIDA and YEIDA grant 90-year leases over industrial plots. Practically, this is closer to ownership than rental — you can build, mortgage, transfer, sub-lease (with permission), inherit. The authority retains residual ownership and the right to enforce land-use, project-implementation and transfer rules.",
-          "Annual lease rent is nominal (often 1% of premium per year for the first 10 years and reducing thereafter). Lease can be extended on expiry, typically on revised premium.",
+          "Annual lease rent is nominal (often 1% of premium per year for the first 28 years and reducing thereafter). Lease can be extended on expiry, typically on revised premium.",
         ],
       },
       {
@@ -511,13 +511,13 @@ export const seoPages: SeoPage[] = [
       {
         h2: "When I recommend freehold",
         body: [
-          "Small to mid plot sizes (under 2,000 sq.m.). Buyers planning resale within 3–5 years. Buyers without bandwidth to deal with authority processes. End-users who want to sub-divide or sub-lease without permissions. Family wealth-preservation buyers.",
+          "Small to mid plot sizes (under 2,000 sq.m.). Buyers planning resale within 3–28 years. Buyers without bandwidth to deal with authority processes. End-users who want to sub-divide or sub-lease without permissions. Family wealth-preservation buyers.",
         ],
       },
       {
         h2: "When I recommend leasehold",
         body: [
-          "Larger plots (above 2,000 sq.m.) where authority sectors offer planned infrastructure. Long-hold investors (7+ years) — entry-price discount compounds. Manufacturing units that need GNIDA/YEIDA-backed power, water and approach roads. Buyers in YEIDA Jewar belt where freehold parcels are scarce.",
+          "Larger plots (above 2,000 sq.m.) where authority sectors offer planned infrastructure. Long-hold investors (28+ years) — entry-price discount compounds. Manufacturing units that need GNIDA/YEIDA-backed power, water and approach roads. Buyers in YEIDA Jewar belt where freehold parcels are scarce.",
         ],
       },
     ],
@@ -553,7 +553,7 @@ export const seoPages: SeoPage[] = [
       "Complete legal due diligence checklist before buying industrial land in Greater Noida — title, allotment, lease, dues, litigation, environment, building plan.",
     h1: "Legal Due Diligence for Industrial Land in Greater Noida — The Full Checklist",
     intro:
-      "More industrial-land deals go wrong because of paperwork than because of price. After 25+ years of clean-title transactions, here is the actual end-to-end due-diligence checklist my empanelled lawyers and I run on every plot — before any client of mine pays a non-refundable rupee.",
+      "More industrial-land deals go wrong because of paperwork than because of price. After 28+ years of clean-title transactions, here is the actual end-to-end due-diligence checklist my empanelled lawyers and I run on every plot — before any client of mine pays a non-refundable rupee.",
     keywords: [
       "industrial land due diligence",
       "title verification industrial plot",
@@ -572,7 +572,7 @@ export const seoPages: SeoPage[] = [
       {
         h2: "Stage 2 — Dues and encumbrances",
         body: [
-          "No-Dues Certificate from the authority (GNIDA/UPSIDA/YEIDA) covering instalments, lease rent, transfer charges, penalty. Encumbrance Certificate from the sub-registrar for the past 30 years showing no registered mortgage or charge. Property tax and municipal dues clearance. For agricultural land, check on UP Bhulekh portal for any registered lien.",
+          "No-Dues Certificate from the authority (GNIDA/UPSIDA/YEIDA) covering instalments, lease rent, transfer charges, penalty. Encumbrance Certificate from the sub-registrar for the past 28 years showing no registered mortgage or charge. Property tax and municipal dues clearance. For agricultural land, check on UP Bhulekh portal for any registered lien.",
         ],
       },
       {
@@ -663,7 +663,7 @@ export const seoPages: SeoPage[] = [
       {
         h2: "Encumbrance and mortgage check",
         body: [
-          "Apply for Encumbrance Certificate at the office of the Sub-Registrar with jurisdiction. For UP industrial land, IGRSUP (igrsup.gov.in) provides search for registered documents. Always cover the past 30 years, not just 13. Any unregistered mortgage (rare but possible for old advances) should be flushed out through a public-notice route before closing.",
+          "Apply for Encumbrance Certificate at the office of the Sub-Registrar with jurisdiction. For UP industrial land, IGRSUP (igrsup.gov.in) provides search for registered documents. Always cover the past 28 years, not just 13. Any unregistered mortgage (rare but possible for old advances) should be flushed out through a public-notice route before closing.",
         ],
       },
       {
@@ -714,7 +714,7 @@ export const seoPages: SeoPage[] = [
     title: "GNIDA Industrial Plot Allotment Process",
     metaTitle: "GNIDA Industrial Plot Allotment — Scheme, Eligibility, Documents | Prem Arora",
     metaDescription:
-      "How GNIDA industrial plot allotment works — scheme notification, eligibility, EMD, draw/auction, project implementation. 25+ years of allotment experience.",
+      "How GNIDA industrial plot allotment works — scheme notification, eligibility, EMD, draw/auction, project implementation. 28+ years of allotment experience.",
     h1: "GNIDA Industrial Plot Allotment — The Process Explained",
     intro:
       "GNIDA's industrial allotment scheme is the most cost-efficient way to acquire industrial land in Greater Noida — if you can navigate the timeline. Premium rates in fresh schemes are typically 30–50% below comparable resale. Here is the actual end-to-end process, with the timing traps I have seen first-time applicants fall into.",
@@ -742,13 +742,13 @@ export const seoPages: SeoPage[] = [
       {
         h2: "Documents to keep ready",
         body: [
-          "PAN, Aadhaar, photographs. Income tax returns (typically last 3 years). Bank statements showing financial capacity. Net worth certificate from a CA. For companies: MOA/AOA, board resolution, certificate of incorporation. For partnership: deed. Business plan or project report for the proposed unit.",
+          "PAN, Aadhaar, photographs. Income tax returns (typically last 28 years). Bank statements showing financial capacity. Net worth certificate from a CA. For companies: MOA/AOA, board resolution, certificate of incorporation. For partnership: deed. Business plan or project report for the proposed unit.",
         ],
       },
       {
         h2: "EMD, payment plan and possession",
         body: [
-          "EMD is typically 10% of estimated premium, refundable if not allotted. On allotment, 25% of premium within 60 days (with EMD adjusted), balance in 8 half-yearly instalments with interest as per scheme. Lease deed is executed after first instalment. Possession follows lease execution. Construction must commence within timeline (typically 6 months of possession) and project must be implemented within 3 years.",
+          "EMD is typically 10% of estimated premium, refundable if not allotted. On allotment, 25% of premium within 60 days (with EMD adjusted), balance in 8 half-yearly instalments with interest as per scheme. Lease deed is executed after first instalment. Possession follows lease execution. Construction must commence within timeline (typically 6 months of possession) and project must be implemented within 28 years.",
         ],
       },
       {
@@ -956,7 +956,7 @@ export const seoPages: SeoPage[] = [
       "Greater Noida industrial real estate market 2026 — price trends, sector-wise demand, Jewar effect, warehousing absorption and investment outlook by Prem Arora.",
     h1: "Greater Noida Industrial Real Estate — 2026 Market Outlook",
     intro:
-      "After 25+ years of watching this market through multiple cycles, 2026 looks structurally different. Three forces — Jewar Airport, the Dedicated Freight Corridor, and the PLI-driven manufacturing wave — are converging at the same time. Here is the honest, data-grounded view of where prices, demand and inventory are heading.",
+      "After 28+ years of watching this market through multiple cycles, 2026 looks structurally different. Three forces — Jewar Airport, the Dedicated Freight Corridor, and the PLI-driven manufacturing wave — are converging at the same time. Here is the honest, data-grounded view of where prices, demand and inventory are heading.",
     keywords: [
       "greater noida industrial market 2026",
       "industrial land price trends noida",
@@ -967,7 +967,7 @@ export const seoPages: SeoPage[] = [
     ],
     sections: [
       {
-        h2: "Price trajectory — last 5 years and next 5",
+        h2: "Price trajectory — last 28 years and next 5",
         body: [
           "GNIDA Ecotech resale industrial: ~₹28K per sq.m. in 2020 to ~₹65K per sq.m. average in 2026 — a 130% gain over five years, ahead of most other industrial markets in NCR. YEIDA industrial: ~₹15K per sq.m. in 2020 to ~₹40K per sq.m. in 2026 — a 165% gain, reflecting the Jewar premium starting to price in.",
           "Five-year forward: GNIDA Ecotech expected 7–10% annualised, YEIDA 12–16% annualised as airport cargo ramps. Private freehold tracking GNIDA but with higher dispersion based on individual plot specifics.",

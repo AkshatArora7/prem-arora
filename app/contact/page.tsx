@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/contact" },
   openGraph: {
     title: "Contact Prem Arora — Free Industrial Land Consultation in Greater Noida",
-    description: "25+ years of experience. Free, no-obligation consultation on industrial plots, warehouse land, GNIDA & YEIDA. Call, WhatsApp or book a slot directly with Prem.",
+    description: "28+ years of experience. Free, no-obligation consultation on industrial plots, warehouse land, GNIDA & YEIDA. Call, WhatsApp or book a slot directly with Prem.",
     type: "website",
     url: `${site.url}/contact`,
     siteName: site.brand,
     locale: "en_IN",
   },
-  twitter: { card: "summary_large_image", title: "Contact Prem Arora — Greater Noida Industrial Land", description: "Free 20-minute industrial land consultation. 25+ years experience." },
+  twitter: { card: "summary_large_image", title: "Contact Prem Arora — Greater Noida Industrial Land", description: "Free 20-minute industrial land consultation. 28+ years experience." },
 };
 
 export default function Contact() {

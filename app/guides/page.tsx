@@ -5,11 +5,11 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Greater Noida Industrial & Land Guides — Expert Insights by Prem Arora",
-  description: "Complete library of Greater Noida industrial real estate guides — industrial plots, warehouse land, GNIDA & YEIDA allotment, Jewar Airport corridor, legal due diligence, freehold vs leasehold, NRI advisory. Written by Prem Arora (25+ yrs).",
+  description: "Complete library of Greater Noida industrial real estate guides — industrial plots, warehouse land, GNIDA & YEIDA allotment, Jewar Airport corridor, legal due diligence, freehold vs leasehold, NRI advisory. Written by Prem Arora (28+ yrs).",
   alternates: { canonical: "/guides" },
   openGraph: {
     title: "Greater Noida Industrial Land Guides — Prem Arora",
-    description: "Every Greater Noida industrial land question answered by 25+ years of on-ground expertise.",
+    description: "Every Greater Noida industrial land question answered by 28+ years of on-ground expertise.",
     type: "website",
     url: `${site.url}/guides`,
     siteName: site.brand,
@@ -49,7 +49,7 @@ export default function GuidesIndex() {
         <div className="container-x">
           <div className="text-[0.85rem] text-slate-300 mb-2"><Link href="/" className="hover:text-[var(--color-gold)]">Home</Link> / Guides</div>
           <span className="eyebrow" style={{color:"var(--color-gold)"}}>Free expert guides</span>
-          <h1 className="text-white mt-1 max-w-[820px]">Greater Noida industrial &amp; land guides — 25 years of expertise, free to read.</h1>
+          <h1 className="text-white mt-1 max-w-[820px]">Greater Noida industrial &amp; land guides — 28 years of expertise, free to read.</h1>
           <p className="text-slate-200 max-w-[760px] mt-3">From your first industrial plot in Ecotech to a YEIDA parcel near Jewar Airport, GNIDA allotments and legal due diligence — Prem&apos;s guides cover every Greater Noida industrial land question with honest, on-ground insight.</p>
           <div className="flex flex-wrap gap-3 mt-6">
             <a className="btn btn-primary" href={`tel:${site.phone}`}>📞 Call Prem Now</a>

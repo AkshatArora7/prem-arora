@@ -14,7 +14,7 @@ export default function Footer() {
                 <small className="block font-sans text-[0.62rem] tracking-[0.25em] text-[var(--color-gold)] font-semibold mt-[-2px]">GREATER NOIDA · 25+ YRS</small>
               </span>
             </Link>
-            <p className="text-[#cfd6e6] mt-3 max-w-[320px] text-[0.95rem]">Greater Noida&apos;s most trusted industrial &amp; land consultant. 25+ years of clean-title transactions across GNIDA, YEIDA, UPSIDA and private freehold — for manufacturers, warehousing operators, NRIs and investors.</p>
+            <p className="text-[#cfd6e6] mt-3 max-w-[320px] text-[0.95rem]">Greater Noida&apos;s most trusted industrial &amp; land consultant. 28+ years of clean-title transactions across GNIDA, YEIDA, UPSIDA and private freehold — for manufacturers, warehousing operators, NRIs and investors.</p>
             <div className="flex gap-2.5 mt-3.5">
               <a className="btn btn-primary btn-sm" href={`tel:${site.phone}`}>📞 Call Now</a>
               <a className="btn btn-sm" style={{background:"transparent",color:"#fff",border:"1px solid rgba(255,255,255,.3)"}} href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noopener">💬 WhatsApp</a>

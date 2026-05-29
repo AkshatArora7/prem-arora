@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/sync-years.js && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync:years": "node scripts/sync-years.js",
+    "gen:favicon": "python scripts/gen-favicon.py"
   },
   "dependencies": {
     "next": "16.2.6",

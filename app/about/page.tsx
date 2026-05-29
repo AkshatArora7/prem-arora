@@ -6,11 +6,11 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About Prem Arora — 25+ Years as Greater Noida's Industrial & Land Consultant",
-  description: "Meet Prem Arora — Greater Noida's most experienced industrial land consultant. 25+ years guiding manufacturers, NRIs and investors with clean-title transactions across GNIDA, YEIDA, UPSIDA and Jewar Airport corridor.",
+  description: "Meet Prem Arora — Greater Noida's most experienced industrial land consultant. 28+ years guiding manufacturers, NRIs and investors with clean-title transactions across GNIDA, YEIDA, UPSIDA and Jewar Airport corridor.",
   alternates: { canonical: "/about" },
   openGraph: {
     title: "About Prem Arora — 25+ Years in Greater Noida Industrial Real Estate",
-    description: "25+ years. 500+ industrial deals. ₹600 Cr+ in clean-title transactions. Meet Greater Noida's most personal industrial & land advisor.",
+    description: "28+ years. 500+ industrial deals. ₹600 Cr+ in clean-title transactions. Meet Greater Noida's most personal industrial & land advisor.",
     type: "profile",
   },
 };
@@ -22,7 +22,7 @@ const personJsonLd = {
   jobTitle: "Industrial & Land Real Estate Consultant",
   url: `${site.url}/about`,
   image: `${site.url}/prem-arora.jpg`,
-  description: "Prem Arora is Greater Noida's most experienced industrial land consultant with 25+ years of expertise in GNIDA, YEIDA, UPSIDA plots, warehouse land and legal due diligence for manufacturers and investors.",
+  description: "Prem Arora is Greater Noida's most experienced industrial land consultant with 28+ years of expertise in GNIDA, YEIDA, UPSIDA plots, warehouse land and legal due diligence for manufacturers and investors.",
   knowsAbout: ["Industrial plots Greater Noida","YEIDA industrial land","Yamuna Expressway","Jewar Airport corridor","GNIDA allotment","UPSIDA industrial estates","Ecotech sectors","Warehouse and logistics land","Factory setup","Legal due diligence","Title verification Uttar Pradesh","Freehold and leasehold land","NRI industrial investment"],
   address: { "@type": "PostalAddress", addressLocality: "Greater Noida", addressRegion: "Uttar Pradesh", addressCountry: "IN" },
   sameAs: [site.social.facebook, site.social.instagram, site.social.linkedin, site.social.youtube],
@@ -48,7 +48,7 @@ export default function About() {
         <div className="container-x">
           <div className="text-[0.85rem] text-slate-300 mb-2"><Link href="/" className="hover:text-[var(--color-gold)]">Home</Link> / About Prem</div>
           <span className="eyebrow" style={{color:"var(--color-gold)"}}>About</span>
-          <h1 className="text-white mt-1 max-w-[820px]">Prem Arora — Greater Noida&apos;s most personal industrial &amp; land consultant for 25+ years.</h1>
+          <h1 className="text-white mt-1 max-w-[820px]">Prem Arora — Greater Noida&apos;s most personal industrial &amp; land consultant for 28+ years.</h1>
           <p className="text-slate-200 max-w-[760px] mt-3">Through three industrial cycles, the rise of GNIDA &amp; YEIDA, and the arrival of the Jewar International Airport — one advisor has stood beside 500+ manufacturers, warehousing operators and NRI investors with the same quiet promise: <i>clean title, every time.</i></p>
         </div>
       </section>
@@ -63,7 +63,7 @@ export default function About() {
             <div className="bg-white border border-[var(--color-line)] rounded-[14px] p-5 mt-5">
               <span className="eyebrow">At a glance</span>
               <ul className="mt-2 space-y-2 text-slate-700">
-                <li><b>Experience:</b> 25+ years in Greater Noida industrial &amp; land</li>
+                <li><b>Experience:</b> 28+ years in Greater Noida industrial &amp; land</li>
                 <li><b>Deals closed:</b> 500+ industrial / commercial / warehouse transactions</li>
                 <li><b>Closed value:</b> ₹600 Cr+ in lifetime transactions</li>
                 <li><b>NRI clients:</b> 80+ across UAE, Singapore, US, UK</li>
@@ -76,8 +76,8 @@ export default function About() {
 
           <div className="article max-w-none">
             <span className="eyebrow">Prem&apos;s story</span>
-            <h2>From a single-room office in 1999 to Greater Noida&apos;s most trusted industrial land advisor.</h2>
-            <p>Prem Arora started in real estate in 1999, when Greater Noida was little more than fields, dust tracks, and the first foundation stones of what would become one of India&apos;s largest planned industrial cities. He walked those plots before there were Ecotech sectors, before there was an Expressway — and that ground-up understanding is the foundation of every recommendation he makes today.</p>
+            <h2>From a single-room office in 1998 to Greater Noida&apos;s most trusted industrial land advisor.</h2>
+            <p>Prem Arora started in real estate in 1998, when Greater Noida was little more than fields, dust tracks, and the first foundation stones of what would become one of India&apos;s largest planned industrial cities. He walked those plots before there were Ecotech sectors, before there was an Expressway — and that ground-up understanding is the foundation of every recommendation he makes today.</p>
             <p>Over the past two and a half decades, Prem has closed 500+ industrial, commercial and warehouse transactions, advised 80+ NRI investors across four continents, and helped manufacturers set up factories on land that is title-clean, end-use approved, and legally bullet-proof.</p>
 
             <h2>What makes working with Prem different</h2>
@@ -99,7 +99,7 @@ export default function About() {
 
             <h2>Trust, in numbers</h2>
             <ul>
-              <li><b>25+ years</b> of on-ground Greater Noida industrial experience</li>
+              <li><b>28+ years</b> of on-ground Greater Noida industrial experience</li>
               <li><b>500+ industrial &amp; land deals</b> successfully closed</li>
               <li><b>₹600 Cr+</b> in lifetime transaction value</li>
               <li><b>80+ NRI clients</b> served fully remotely</li>
@@ -117,7 +117,7 @@ export default function About() {
 
             <div className="not-prose rounded-2xl p-6 mt-8 text-white" style={{background:"linear-gradient(135deg,var(--color-navy),var(--color-navy-2))"}}>
               <h3 className="font-display text-2xl text-white m-0">Talk to Prem — one call, full clarity.</h3>
-              <p className="text-slate-200 mt-2 mb-4">Free 20-minute consultation. No pressure. Just 25 years of Greater Noida industrial wisdom on your side.</p>
+              <p className="text-slate-200 mt-2 mb-4">Free 20-minute consultation. No pressure. Just 28 years of Greater Noida industrial wisdom on your side.</p>
               <div className="flex flex-wrap gap-3">
                 <a className="btn btn-primary" href={`tel:${site.phone}`}>📞 Call {site.phoneDisplay}</a>
                 <a className="btn" style={{background:"#25D366",color:"#fff"}} href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener">💬 WhatsApp Prem</a>

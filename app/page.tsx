@@ -5,9 +5,9 @@ import FAQ from "@/components/FAQ";
 import { site } from "@/lib/site";
 
 const homeFaqs = [
-  { q: "Who is Prem Arora and why work with him?", a: "Prem Arora is one of Greater Noida's most experienced industrial and land consultants, with 25+ years of on-ground expertise across GNIDA, YEIDA, UPSIDA and private freehold parcels. He has personally closed clean-title transactions for manufacturers, warehousing operators, NRIs and investors. Every client gets a direct line to Prem — no call centres, no junior agents." },
+  { q: "Who is Prem Arora and why work with him?", a: "Prem Arora is one of Greater Noida's most experienced industrial and land consultants, with 28+ years of on-ground expertise across GNIDA, YEIDA, UPSIDA and private freehold parcels. He has personally closed clean-title transactions for manufacturers, warehousing operators, NRIs and investors. Every client gets a direct line to Prem — no call centres, no junior agents." },
   { q: "What kind of properties does Prem handle?", a: "Industrial plots, warehousing and logistics land, factory-ready built-up sheds, commercial plots, and private freehold land with completed CLU. No residential apartments, no BHK flats. The focus is on income-generating and investment-grade land with full legal paperwork." },
-  { q: "Is Greater Noida a good time for industrial land in 2026?", a: "Yes — Jewar Airport, the Eastern Dedicated Freight Corridor and the PLI manufacturing push are converging here. GNIDA Ecotech resale has compounded ~17% per year over the last 5 years; YEIDA industrial belt has run faster. For 5+ year horizons, the fundamentals remain among the strongest in NCR." },
+  { q: "Is Greater Noida a good time for industrial land in 2026?", a: "Yes — Jewar Airport, the Eastern Dedicated Freight Corridor and the PLI manufacturing push are converging here. GNIDA Ecotech resale has compounded ~17% per year over the last 28 years; YEIDA industrial belt has run faster. For 5+ year horizons, the fundamentals remain among the strongest in NCR." },
   { q: "Does Prem help with legal due diligence?", a: "Yes — every shortlist comes with a paperwork score. Allotment chain, lease deed, No-Dues Certificate, Encumbrance Certificate, litigation search, Section 143 CLU, building plan, environmental and fire NOCs — all checked before any non-refundable rupee is paid." },
   { q: "Can NRIs buy industrial land in Greater Noida?", a: "Absolutely. Under general FEMA permission, NRIs can acquire industrial and commercial property in India. Prem has handled NRI transactions end-to-end — including POA execution, GNIDA/YEIDA transfer, remittance routing through NRE/NRO, TDS planning and post-purchase asset management." },
   { q: "Does Prem charge a fee?", a: "Prem works on a flat advisory model, not a percentage commission — so the incentive is to find the right plot, not the most expensive one. Fee structure is shared transparently upfront before any engagement begins." },
@@ -41,7 +41,7 @@ export default function HomePage() {
                 <span className="block">PLOT.</span>
                 <em className="block not-italic text-[#8a7a62] mt-2">Done right.</em>
               </h1>
-              <p className="text-[#7a6a55] italic mt-7 text-[0.95rem] tracking-wide">/ Clean title. Greater Noida. Since 1999. /</p>
+              <p className="text-[#7a6a55] italic mt-7 text-[0.95rem] tracking-wide">/ Clean title. Greater Noida. Since 1998. /</p>
 
               <div className="mt-9 flex items-center gap-5">
                 <a href={`tel:${site.phone}`} className="inline-flex items-center gap-3 bg-[#2a2218] text-white px-9 py-4 rounded-full text-[0.88rem] font-medium tracking-[0.12em] uppercase hover:bg-[#3d3325] transition-colors shadow-[0_10px_30px_-10px_rgba(42,34,24,0.5)]">
@@ -57,9 +57,9 @@ export default function HomePage() {
             <div className="relative">
               <div className="bg-white/95 backdrop-blur-sm rounded-[28px] p-5 md:p-6 shadow-[0_30px_80px_-25px_rgba(75,55,35,0.45)]">
                 <div className="flex flex-wrap gap-2 mb-5">
-                  <span className="px-4 py-1.5 rounded-full bg-white border border-[#e5dccb] text-[0.74rem] text-[#3a2e22] font-medium">GNIDA</span>
-                  <span className="px-4 py-1.5 rounded-full bg-white border border-[#e5dccb] text-[0.74rem] text-[#3a2e22] font-medium">YEIDA</span>
-                  <span className="px-4 py-1.5 rounded-full bg-[#2a2218] text-white text-[0.74rem] font-medium">UPSIDA</span>
+                  <Link href="/seo/gnida-plot-allotment-process" className="px-4 py-1.5 rounded-full bg-white border border-[#e5dccb] text-[0.74rem] text-[#3a2e22] font-medium hover:bg-[#f5efe2] hover:border-[#c9b890] transition">GNIDA</Link>
+                  <Link href="/seo/industrial-land-yamuna-expressway-yeida" className="px-4 py-1.5 rounded-full bg-white border border-[#e5dccb] text-[0.74rem] text-[#3a2e22] font-medium hover:bg-[#f5efe2] hover:border-[#c9b890] transition">YEIDA</Link>
+                  <Link href="/seo/industrial-plots-greater-noida" className="px-4 py-1.5 rounded-full bg-[#2a2218] text-white text-[0.74rem] font-medium hover:bg-[#3d3325] transition">UPSIDA</Link>
                 </div>
                 <h3 className="font-display text-[1.5rem] md:text-[1.75rem] leading-[1.1] text-[#2a2218]">
                   End-to-end legal<br/>due diligence.
@@ -68,8 +68,8 @@ export default function HomePage() {
                 <div className="relative mt-5 rounded-[18px] overflow-hidden aspect-[16/11] bg-[#d4c4a8]">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1200&q=80"
-                    alt="Aerial view of industrial land near Greater Noida"
+                    src="/hero-skyline.jpg"
+                    alt="Greater Noida skyline at dusk"
                     className="w-full h-full object-cover"
                     loading="eager"
                   />
@@ -164,7 +164,7 @@ export default function HomePage() {
         <div className="container-x">
           <Reveal className="text-center max-w-[720px] mx-auto">
             <span className="eyebrow">Why work with Prem Arora</span>
-            <h2 className="mt-1">25 years of trust. Every deal, personal.</h2>
+            <h2 className="mt-1">28 years of trust. Every deal, personal.</h2>
             <p className="lead mx-auto mt-2">You won&apos;t be passed to a junior agent. You won&apos;t be chased by a call centre. You get Prem — direct, honest, and accountable.</p>
           </Reveal>
           <Reveal className="mt-10">
@@ -251,7 +251,7 @@ export default function HomePage() {
         <div className="container-x">
           <Reveal>
             <span className="eyebrow">Free Guides by Prem</span>
-            <h2 className="mt-1">Industrial &amp; land knowledge — 25 years on the ground.</h2>
+            <h2 className="mt-1">Industrial &amp; land knowledge — 28 years on the ground.</h2>
           </Reveal>
           <Reveal className="mt-8">
             <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">

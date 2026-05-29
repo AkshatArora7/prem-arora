@@ -116,7 +116,7 @@ export default async function SeoLandingPage({ params }: { params: Promise<{ slu
 
             <div className="not-prose rounded-2xl p-6 text-white" style={{background:"linear-gradient(135deg,var(--color-navy),var(--color-navy-2))"}}>
               <h3 className="font-display text-2xl text-white m-0">Talk to Prem Arora directly</h3>
-              <p className="text-slate-200 mt-2 mb-4">25+ years of Greater Noida experience. One honest conversation can save you lakhs and months of confusion. No obligation, ever.</p>
+              <p className="text-slate-200 mt-2 mb-4">28+ years of Greater Noida experience. One honest conversation can save you lakhs and months of confusion. No obligation, ever.</p>
               <div className="flex flex-wrap gap-3">
                 <a className="btn btn-primary" href={`tel:${site.phone}`}>📞 Call Prem Now</a>
                 <a className="btn" style={{background:"#25D366",color:"#fff"}} href={`https://wa.me/${site.whatsapp}?text=${site.whatsappMsg}`} target="_blank" rel="noopener">💬 WhatsApp</a>

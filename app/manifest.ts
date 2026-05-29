@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Prem Arora — Greater Noida Industrial & Land Consultant",
     short_name: "Prem Arora",
-    description: "Greater Noida's most trusted industrial & land real estate consultant. 25+ years of clean-title transactions across GNIDA, YEIDA, UPSIDA, Jewar Airport corridor.",
+    description: "Greater Noida's most trusted industrial & land real estate consultant. 28+ years of clean-title transactions across GNIDA, YEIDA, UPSIDA, Jewar Airport corridor.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

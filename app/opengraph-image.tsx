@@ -49,7 +49,7 @@ export default async function OG() {
             Greater Noida&apos;s most trusted industrial &amp; land consultant.
           </div>
           <div style={{ fontSize: 28, color: "#cfd8ea", marginTop: 24, maxWidth: 1000 }}>
-            25+ years · 500+ industrial deals · GNIDA · YEIDA · Jewar Airport · 100% clean title
+            28+ years · 500+ industrial deals · GNIDA · YEIDA · Jewar Airport · 100% clean title
           </div>
         </div>
 
