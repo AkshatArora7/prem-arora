@@ -1022,6 +1022,280 @@ export const seoPages: SeoPage[] = [
     ],
     relatedSlugs: [],
   },
+  {
+    slug: "stamp-duty-industrial-land-uttar-pradesh-2026",
+    title: "Stamp Duty on Industrial Land in UP (2026)",
+    metaTitle: "Stamp Duty on Industrial Land in UP 2026 — Full Breakdown | Prem Arora",
+    metaDescription:
+      "Complete 2026 guide to stamp duty on industrial land in Uttar Pradesh — GNIDA, YEIDA, UPSIDA leasehold transfers, freehold conversions, registration fees, women-buyer rebates and lawful ways to optimise.",
+    h1: "Stamp Duty on Industrial Land in Uttar Pradesh — 2026 Guide",
+    intro:
+      "Stamp duty is the single largest one-time cost after the plot price itself — yet most industrial buyers in Greater Noida discover the real number only the week of registration. After 28+ years of executing GNIDA, YEIDA, UPSIDA and freehold transfers, here is the honest 2026 breakdown of what you actually pay, where the legal optimisations exist, and the rebates most buyers never claim.",
+    keywords: [
+      "stamp duty industrial land UP",
+      "stamp duty greater noida 2026",
+      "GNIDA stamp duty transfer",
+      "YEIDA stamp duty",
+      "industrial plot registration charges UP",
+      "stamp duty women buyer UP",
+      "lease deed stamp duty UP",
+    ],
+    sections: [
+      {
+        h2: "The headline numbers (2026)",
+        body: [
+          "For most industrial transactions in Greater Noida and the YEIDA belt, the effective tax stack at registration is approximately 7 percent of the higher of (a) consideration declared in the deed or (b) the Collector's circle rate. This breaks into stamp duty (typically 5 percent for male buyers in urban Gautam Buddha Nagar, 6 percent earlier — verify the latest notification at registration) plus registration fee (1 percent capped at ₹30,000 historically, but the cap was effectively removed for high-value transactions in recent amendments).",
+          "On top of stamp duty, GNIDA / YEIDA / UPSIDA charge their own transfer fee — typically 2.5 percent of the prevailing allotment rate (not your purchase price). This authority transfer fee is separate from stamp duty and is paid to the development authority, not the sub-registrar. Many first-time buyers budget for stamp duty but miss the authority transfer charge, which on a ₹2 crore plot can easily add ₹4–6 lakhs.",
+        ],
+      },
+      {
+        h2: "Leasehold transfer vs freehold sale — different deed, different duty",
+        body: [
+          "If you are buying an existing GNIDA / YEIDA / UPSIDA plot from an earlier allottee, you are not technically buying the land — you are taking transfer of the leasehold rights. The instrument executed is a Transfer Memorandum at the authority, followed by a Deed of Assignment / Tripartite Deed at the sub-registrar. Stamp duty applies on the deed of assignment.",
+          "Freehold industrial land (typically Section 143 CLU converted) transfers through a regular Sale Deed. Same stamp duty rate, but the registration process and supporting documents differ. Crucially, freehold land does not attract authority transfer fees — which is why apparently cheaper leasehold plots sometimes end up costing more all-in than slightly higher-priced freehold parcels.",
+        ],
+      },
+      {
+        h2: "Rebates, exemptions and optimisations that are actually legal",
+        body: [
+          "Women buyer rebate: UP allows a 1 percent rebate on stamp duty (capped) when the buyer is a single woman or the property is registered solely in a woman's name. For a ₹2 crore plot, this is a clean ₹2 lakhs saving. For family-owned businesses, registering in the proprietor's mother / wife / daughter's name is a routine, fully legal optimisation.",
+          "Joint registration: registering in joint names where one co-owner is a woman gets a partial rebate on the woman's share. This is useful for husband-wife purchases. The exact computation depends on the share declared in the deed.",
+          "MSME / industrial promotion rebates: Uttar Pradesh has historically offered stamp duty reimbursement (not exemption — you pay first, then claim) for specified MSME categories under the UP Industrial Investment & Employment Promotion Policy. Eligibility is sector-specific and time-bound; check the latest gazette notification before budgeting for the rebate.",
+          "Circle rate vs consideration: stamp duty is calculated on whichever is higher. If the agreed consideration is genuinely below circle rate (rare but possible in distressed sales), you still pay duty on circle rate — there is no legal way around this. Under-declaring consideration is a Section 47A violation and triggers a deficiency notice plus penalty.",
+        ],
+      },
+      {
+        h2: "The full transaction cost stack — example",
+        body: [
+          "On a ₹2 crore GNIDA Ecotech plot resale to a male buyer, the realistic all-in registration day cost is approximately: Stamp duty (5–7 percent depending on the latest notification) ₹10–14 lakhs; Registration fee (1 percent, sometimes capped) ₹1–2 lakhs; GNIDA transfer fee (typically 2.5 percent of allotment rate) ₹3–5 lakhs; Legal and franking charges ₹40–80,000; Misc (no-dues, EC, mutation) ₹20–40,000.",
+          "Round number to budget: 9–11 percent of the plot price on top of the consideration. Buyers who budget only the ticker price routinely fall short at registration. We always include the full stack in the engagement note before any token money is paid.",
+        ],
+      },
+      {
+        h2: "Mutation after registration — do not forget",
+        body: [
+          "Stamp duty paid does not equal title transferred. Until the property is mutated in the buyer's name at the authority (for leasehold) or in the revenue records / Khatauni (for freehold under Bhulekh), the buyer's name does not appear as the recorded owner. Unmutated plots cannot be resold, mortgaged or used as collateral.",
+          "Allow 30–90 days post-registration for mutation depending on the authority. We follow up mutations for every client we transact for — because a deal is not closed until the Khatauni / authority records show the new owner.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "Is GST applicable on industrial land?", a: "No GST on bare industrial land. GST applies on construction services if you buy a built-up shed under construction. Completed sheds without an OC are debated — we structure accordingly." },
+      { q: "Can I pay stamp duty online?", a: "Yes — UP uses the e-stamp system through SHCIL / Stock Holding for purchases above ₹500. Most transactions in Greater Noida pay via e-stamping, not physical stamp paper." },
+      { q: "Does the seller pay any stamp duty?", a: "No — stamp duty is paid by the buyer in UP. Sellers may bear authority charges or capital gains tax separately, depending on the agreed deal structure." },
+      { q: "Is stamp duty refundable if the deal falls through?", a: "Partial refund (90 percent of stamp paper value) is possible within 6 months under the Stamp Act, but only if the deal demonstrably collapsed and the stamp was not used. Registration fee is generally not refundable." },
+      { q: "What about TDS at registration?", a: "Section 194-IA TDS at 1 percent applies on transactions ≥ ₹50 lakhs — the buyer deducts and deposits within 30 days. This is separate from stamp duty and routinely missed by first-time buyers, attracting late fees." },
+    ],
+    relatedSlugs: ["legal-due-diligence-industrial-land-greater-noida", "title-verification-land-uttar-pradesh", "gnida-plot-allotment-process"],
+  },
+  {
+    slug: "gnida-mutation-process-industrial-plot",
+    title: "GNIDA Mutation Process — Industrial Plot",
+    metaTitle: "GNIDA Mutation Process 2026 — Industrial Plot Step-by-Step | Prem Arora",
+    metaDescription:
+      "Complete 2026 step-by-step GNIDA mutation process for industrial plots — documents, fees, timeline, common rejections and how to fast-track. Written by Prem Arora, 28+ years on-ground.",
+    h1: "GNIDA Mutation Process for an Industrial Plot — 2026 Step-by-Step",
+    intro:
+      "Registration of the deed is only half the transfer. Until GNIDA mutates the plot into your name, you are not the recorded allottee — and you cannot resell, mortgage, build, or apply for power and water sanction. After processing hundreds of GNIDA mutations, here is the realistic step-by-step for an industrial plot, including the documents, fees, timeline and the three most common reasons mutations get stuck.",
+    keywords: [
+      "GNIDA mutation process",
+      "GNIDA industrial plot mutation",
+      "GNIDA transfer memorandum",
+      "GNIDA mutation documents",
+      "GNIDA mutation fee",
+      "GNIDA mutation timeline",
+    ],
+    sections: [
+      {
+        h2: "Why mutation matters",
+        body: [
+          "Mutation updates the GNIDA's own records to show you as the current leaseholder. Without mutation, the authority continues to issue notices, demand letters and lease-related correspondence to the previous allottee. Banks will not sanction a construction loan against an unmutated plot. The buyer cannot apply for building plan sanction, power load, water connection, or fire NOC.",
+          "Worse, if you try to resell an unmutated plot, the next buyer's transfer application will be rejected — because GNIDA records still show the prior owner. We have seen plots stuck in unmutated limbo for 28+ years, where the buyer paid the full consideration but never completed mutation. Do not let this happen.",
+        ],
+      },
+      {
+        h2: "Documents required for GNIDA mutation",
+        body: [
+          "Mandatory documents (originals + 2 sets photocopies): Allotment Letter of the original allottee; Lease Deed (original or certified copy); Transfer Memorandum issued by GNIDA at the time of resale approval; Registered Deed of Assignment / Tripartite Deed; receipt of stamp duty payment (e-stamp); No-Dues Certificate from GNIDA (lease rent, ground rent, water charges all paid up); Encumbrance Certificate from sub-registrar; PAN of buyer and seller; address proof and recent photograph of buyer; affidavit on ₹100 stamp paper declaring the chain of transfer is correct.",
+          "For companies: CIN, MoA, AoA, board resolution authorising the acquisition and naming the signatory. For partnership firms: partnership deed + authorisation. For LLPs: LLP agreement + designated partner authorisation. For NRIs: PAN, passport copy, OCI / PIO card if applicable, FEMA declaration, NRO / NRE bank statement evidencing the consideration trail.",
+        ],
+      },
+      {
+        h2: "Step-by-step process (typical timeline 30–90 days)",
+        body: [
+          "Step 1 — Pre-application: apply for and receive the GNIDA No-Dues Certificate. Pay any pending lease rent, water charges, interest or penalty. NDC is the gatekeeper — without it, no transfer is processed.",
+          "Step 2 — Transfer application: submit the resale transfer application to the Plots Department at GNIDA, along with prescribed transfer fee (typically 2.5 percent of prevailing allotment rate). Issuance of the Transfer Memorandum follows scrutiny, usually 2–4 weeks.",
+          "Step 3 — Deed registration: execute the Deed of Assignment at the sub-registrar, paying stamp duty and registration fee. The Transfer Memorandum is annexed to the deed.",
+          "Step 4 — Mutation application: file the mutation application with all documents at GNIDA Plots Department / Property Section. Application is digitised, file moved through dealing assistant → section officer → manager → DGM (Plots) for approval.",
+          "Step 5 — Mutation order: once approved, a Mutation Order is issued and the GNIDA records are updated. A fresh Allotment Letter / acknowledgement may be issued in the new buyer's name depending on category.",
+          "Step 6 — Updated lease rent invoice: post-mutation, GNIDA will start raising the annual lease rent invoice in the new buyer's name. Keep all receipts — they are your continued evidence of clean possession.",
+        ],
+      },
+      {
+        h2: "Three most common reasons mutations get stuck",
+        body: [
+          "Broken chain: the seller cannot produce a clean chain from the original allottee through every intermediate transfer. Even one missing Transfer Memorandum or unmutated intermediate sale breaks the chain. Fix: file a chain-completion application with affidavits and the available evidence. Sometimes a court order is needed.",
+          "Unpaid lease rent / penal interest: the cumulative ledger from the original allottee shows unpaid dues. Authority demands clearance before NDC is issued. Negotiate with seller for adjustment from consideration before registration — never after.",
+          "Litigation flag: a civil suit, partition dispute, or attachment order is flagged on the file. Mutation is held until the litigation is resolved or a no-objection from the court is filed. Always run a litigation search before token money is paid.",
+        ],
+      },
+      {
+        h2: "Can you fast-track a GNIDA mutation?",
+        body: [
+          "There is no official 'tatkal' for industrial plot mutation. What works is preparation: filing a complete, accurate, properly-paginated application set on day one, with NDC and all stamping in order. A clean file moves through the dealing assistant in a week. An incomplete file with one missing affidavit can sit for a quarter.",
+          "Periodic follow-up at the Plots Department, in person, by the buyer or an authorised representative is the single biggest accelerator. GNIDA officers are not obstructive — files genuinely get lost in volume. A weekly polite follow-up keeps your file on top of the pile.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "What is the GNIDA mutation fee in 2026?", a: "Transfer fee is typically 2.5 percent of the current allotment rate of the sector (not the resale price). Mutation processing fee is separate and nominal. Verify exact figures with the Plots Department at the time of application — fees revise via authority circular." },
+      { q: "Can mutation happen without the original allottee's signature?", a: "Not for the very first transfer. Once the Deed of Assignment is executed and Transfer Memorandum is in hand, no further signatures from the original allottee are required for subsequent steps." },
+      { q: "How long does mutation actually take?", a: "30–45 days for a clean file, 60–90 days for a moderately complex one, 6+ months if there are chain issues or unpaid dues. We pre-audit every file to keep it in the 30–45 day band." },
+      { q: "Do I need a lawyer for mutation?", a: "Not legally required, but strongly advised for industrial plots — the paperwork volume and authority interface benefit from a professional. Most engagements we handle include mutation completion as part of the closing." },
+      { q: "What if mutation is rejected?", a: "Rejection is appealable to the CEO of GNIDA within 30 days. Most rejections we have seen are correctable — they relate to missing documents, not substantive title issues. Fix the gap and re-file." },
+    ],
+    relatedSlugs: ["gnida-plot-allotment-process", "legal-due-diligence-industrial-land-greater-noida", "title-verification-land-uttar-pradesh"],
+  },
+  {
+    slug: "power-water-sanction-industrial-plot-greater-noida",
+    title: "Power & Water Sanction for an Industrial Plot",
+    metaTitle: "Power & Water Sanction — Industrial Plot Greater Noida 2026 | Prem Arora",
+    metaDescription:
+      "Step-by-step 2026 guide to getting power load sanction (PVVNL / NPCL) and water connection (GNIDA / YEIDA) for an industrial plot in Greater Noida. Documents, fees, timelines and pitfalls.",
+    h1: "Power & Water Sanction for an Industrial Plot in Greater Noida",
+    intro:
+      "An industrial plot without a sanctioned power load and a metered water connection is a building, not a factory. After helping clients commission units from 50 KVA workshops to 2 MVA mid-sized factories across GNIDA, UPSIDA and the YEIDA belt, here is the realistic 2026 step-by-step for getting your plot energised and watered — including the application paths, indicative costs and the silent traps that delay first machine commissioning by months.",
+    keywords: [
+      "power sanction industrial plot greater noida",
+      "NPCL industrial connection",
+      "PVVNL industrial connection greater noida",
+      "GNIDA water connection",
+      "industrial water connection greater noida",
+      "factory electricity sanction UP",
+    ],
+    sections: [
+      {
+        h2: "Who supplies what",
+        body: [
+          "Power: Greater Noida's industrial sectors are largely supplied by NPCL (Noida Power Company Limited) — the private licensee covering the GNIDA area. YEIDA industrial sectors fall under PVVNL (Paschimanchal Vidyut Vitran Nigam Limited), the state utility. Some Ecotech sectors have overlapping jurisdictions; confirm at sanction.",
+          "Water: GNIDA supplies water to its industrial sectors through its own water-supply division. YEIDA does the same for its sectors. UPSIDA estates use a mix of authority water and tubewell. Borewell is regulated under the UP Ground Water Act — industrial use needs a Central Ground Water Authority NOC for many categories, especially in semi-critical / critical blocks.",
+        ],
+      },
+      {
+        h2: "Power sanction — step by step",
+        body: [
+          "Step 1 — Load estimation: a qualified electrical contractor prepares a single-line diagram (SLD) based on your machine list. The connected load and demand load determine whether you fall under LT (up to ~75 KW) or HT (above) tariff. HT connections cost more upfront but are cheaper per unit — most factories beyond a small workshop go HT.",
+          "Step 2 — Application: file the connection application with NPCL / PVVNL through their online portal. Documents: ownership proof (Lease Deed / Allotment + Mutation), KYC, SLD signed by an A-class electrical contractor, board resolution for companies, occupancy certificate or building plan approval (depending on stage of construction).",
+          "Step 3 — Feasibility & estimate: utility issues a feasibility report and demand note specifying security deposit, service line charges, transformer cost (if dedicated) and infrastructure development charges. For HT, you typically procure and install your own transformer at your premises.",
+          "Step 4 — Payment & agreement: deposit the demand note, sign the supply agreement, and energise after meter installation and CEIG (Chief Electrical Inspector) approval for HT installations. CEIG inspection is the gating step that catches most first-time factory owners off-guard.",
+          "Step 5 — Commissioning: utility energises the connection. From application to live power: 45–75 days for LT, 90–150 days for HT — assuming no delays at CEIG or transformer procurement.",
+        ],
+      },
+      {
+        h2: "Indicative power costs (2026)",
+        body: [
+          "Security deposit: ₹1,500–₹2,500 per KVA of sanctioned load — refundable when connection is surrendered. For a 500 KVA HT connection, expect ₹7.5–12.5 lakhs of refundable deposit.",
+          "Service line / infrastructure charge: ₹50,000–₹3 lakhs depending on distance from the nearest 11 KV feeder and whether transformer is shared or dedicated. A 500 KVA dedicated transformer with installation is ₹8–14 lakhs.",
+          "Per-unit tariff (2026, indicative): HT industrial ₹7.00–8.50 per unit; LT industrial ₹7.50–9.00; with time-of-day variation and demand charges layered on. Open access for larger consumers can bring the effective tariff to ₹6–7 per unit — worth evaluating beyond ~1 MVA load.",
+        ],
+      },
+      {
+        h2: "Water sanction — step by step",
+        body: [
+          "Step 1 — Demand estimation: industrial water demand depends on process. A general fabrication unit may need 5–10 KL/day; a food processing or chemical unit can need 50+ KL/day. Estimate honestly — under-sized connections are routinely rejected at sanctioned-rate billing once monitored consumption exceeds sanctioned quota.",
+          "Step 2 — Application: file with the GNIDA / YEIDA water-supply division. Documents similar to power: ownership, KYC, building plan, demand estimate signed by a qualified person.",
+          "Step 3 — Connection: water meter installed at the boundary line, deposit paid (refundable security plus connection charges), and supply commences. Timeline: 30–60 days from complete application.",
+          "Step 4 — Borewell (if needed): for higher-volume process water, a borewell may be needed in addition to / instead of authority supply. Permission from Central Ground Water Authority is required in semi-critical / critical blocks. The Yamuna Expressway industrial belt is largely semi-critical — plan accordingly.",
+        ],
+      },
+      {
+        h2: "Common delays — and how to avoid them",
+        body: [
+          "Mutation pending: utilities require the connection applicant to be the recorded leaseholder. An unmutated plot will see the application returned. Always complete mutation before power application.",
+          "CEIG queue: Chief Electrical Inspector inspection backlogs in NCR can run 6–12 weeks. File early, prepare the installation thoroughly, and respond to the first inspection report inside 7 days to avoid re-queueing.",
+          "Building plan mismatch: if the SLD load or building plan footprint doesn't match what's been sanctioned by GNIDA, the file is returned. Coordinate plan sanction and power application together — not sequentially.",
+          "Transformer procurement: dedicated transformers have lead times of 6–10 weeks from major OEMs in NCR. Place the order the day the demand note is paid, not after.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "Can I start construction without power sanction?", a: "Yes — construction power is a separate temporary connection (typically 25–50 KVA) that takes 2–3 weeks. Apply for permanent load in parallel so the connection is live by occupancy." },
+      { q: "Is solar an alternative?", a: "Rooftop solar under UP's net-metering regime can offset 30–50 percent of factory demand. Open-access solar PPAs are viable above ~250 KVA load and can bring the effective tariff to ₹4–5 per unit." },
+      { q: "What about diesel generators?", a: "DG backup is standard for any industrial unit. Capacity should match critical load (usually 30–60 percent of sanctioned). DG above 75 KVA needs CEIG approval and a Form III pollution NOC." },
+      { q: "Is GNIDA water potable?", a: "Authority supply is filtered and treated to bulk standard. For process water in food, pharma or precision manufacturing, additional in-house RO / DM is standard." },
+      { q: "What's the realistic timeline from plot purchase to first machine running?", a: "Clean greenfield, well-coordinated: 9–12 months. Building plan to OC: 4–6 months. Power sanction parallel: 3–5 months. Machinery installation: 2–3 months after building shell is ready." },
+    ],
+    relatedSlugs: ["factory-setup-land-greater-noida", "industrial-plots-greater-noida", "ecotech-industrial-sectors-greater-noida"],
+  },
+  {
+    slug: "ecotech-11-vs-ecotech-12-industrial-sector-comparison",
+    title: "Ecotech 11 vs Ecotech 12 — Sector Comparison",
+    metaTitle: "Ecotech 11 vs Ecotech 12 — Industrial Sector Comparison 2026 | Prem Arora",
+    metaDescription:
+      "Honest 2026 comparison of Ecotech 11 and Ecotech 12 industrial sectors in Greater Noida — pricing, infrastructure, occupancy mix, connectivity, plot sizes, and which is right for your use case.",
+    h1: "Ecotech 11 vs Ecotech 12 — Honest Sector Comparison (2026)",
+    intro:
+      "Ecotech 11 and Ecotech 12 are the two sectors most actively asked about by manufacturers and warehousing buyers in Greater Noida in 2026. Both look similar on paper. On the ground, they are different beasts. After advising on transactions in both sectors continuously since their early allotment, here is the side-by-side a buyer actually needs.",
+    keywords: [
+      "ecotech 11 vs ecotech 12",
+      "ecotech 11 industrial plot price",
+      "ecotech 12 industrial plot price",
+      "ecotech sector comparison greater noida",
+      "best ecotech sector greater noida",
+    ],
+    sections: [
+      {
+        h2: "Location & connectivity",
+        body: [
+          "Ecotech 11 sits along the Eastern Peripheral Expressway / NH-91 corridor, with 6–8 minute access to the EPE interchange and 18–22 minutes to the FNG corridor. Truck movement to Haryana, Sonipat, Rohtak and beyond bypasses Delhi entirely — a meaningful operating advantage for any unit shipping more than 4–5 truckloads a week.",
+          "Ecotech 12 is more interior, with primary connectivity through Surajpur–Kasna Road and onward to NH-9 and the Yamuna Expressway. Slightly longer last-mile to expressway exits, but better proximity to the residential and labour catchments of Greater Noida West — useful for units that depend on local workforce availability.",
+        ],
+      },
+      {
+        h2: "Plot sizes & layout",
+        body: [
+          "Ecotech 11 was master-planned for medium and large industrial allottees — typical plot sizes range from 2,000 sq.m. to 20,000+ sq.m., with a higher concentration of single-occupant factory parcels. Wider internal roads (24m and 30m) accommodate trailer movement.",
+          "Ecotech 12 has a more granular plot mix — 1,000 sq.m. to 8,000 sq.m. dominates, with a higher share of MSME-scale units, ancillary suppliers and small warehouses. Internal roads are 18m and 24m predominantly — adequate for 32-foot trucks but tight for trailers in some pockets.",
+        ],
+      },
+      {
+        h2: "Pricing (indicative, 2026)",
+        body: [
+          "Allotment-era prices in both sectors were broadly similar (₹4,000–6,000 per sq.m. depending on year and scheme). Resale today reflects the demand-side gap: Ecotech 11 ranges ₹38,000–48,000 per sq.m. for corner / wide-frontage plots; mid-block plots ₹30,000–38,000 per sq.m. Ecotech 12 ranges ₹26,000–34,000 per sq.m. mid-block, with corner / road-facing premiums of 10–15 percent.",
+          "The 20–30 percent premium on Ecotech 11 reflects the connectivity advantage and the larger-format buyer profile (which compresses available supply at any time). For a buyer who values supply chain efficiency over price, Ecotech 11 is usually worth the premium. For a buyer where local labour or MSME ecosystem matters more, Ecotech 12 wins on rupees per sq.m.",
+        ],
+      },
+      {
+        h2: "Occupancy mix & ecosystem",
+        body: [
+          "Ecotech 11 occupancy mix skews to mid-to-large units: auto component manufacturers, packaging, plastics, light engineering, and Grade-A warehouses. A growing 3PL footprint in the last 24 months reflects the EPE-driven supply chain logic.",
+          "Ecotech 12 is dominated by MSME-scale fabrication, food & beverage processing, electrical assembly and ancillary suppliers to the larger units in Ecotech 1A/1B/2. Proximity to the labour catchments of Greater Noida West makes worker hiring easier — a non-trivial operating advantage that doesn't show up in price-per-sq.m. tables.",
+        ],
+      },
+      {
+        h2: "Infrastructure status (2026)",
+        body: [
+          "Both sectors are fully developed in terms of internal roads, drainage, street lighting and water mains. Power: NPCL is the licensee in both, with adequate substation capacity for typical mid-sized loads. HT connection lead times are comparable.",
+          "Ecotech 11 has a marginal infrastructure edge — wider trunk roads, faster authority response on civic complaints, slightly better last-mile road quality. Ecotech 12 saw drainage upgrades through 2024–25 that have largely eliminated the monsoon water-logging that troubled certain pockets earlier.",
+        ],
+      },
+      {
+        h2: "Which one is right for you?",
+        body: [
+          "Choose Ecotech 11 if: you ship 5+ truckloads a week to Haryana / Punjab / Rajasthan, you need 5,000+ sq.m. of plot, you value Grade-A neighbouring occupancy, your budget can absorb a 25–30 percent premium for a 10–15 percent operating advantage, and your exit horizon is 28+ years.",
+          "Choose Ecotech 12 if: your plot need is 1,500–5,000 sq.m., you depend on locally available semi-skilled labour, you value proximity to MSME ancillary suppliers in adjacent Ecotech 1A/1B/2, you want a faster payback on capital deployed, or you are in a category where the local labour pool drives your unit economics.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "Which sector has better resale velocity?", a: "Ecotech 11 typically sees faster resale at asking price for plots above 5,000 sq.m. Ecotech 12 has thicker liquidity in the 1,500–3,000 sq.m. band where MSME demand is consistent." },
+      { q: "Are there environmental category restrictions?", a: "Both sectors permit Green and Orange category units under UPPCB classification. Red category requires individual environmental clearance regardless of sector. Always verify your product category before committing." },
+      { q: "Can I run a warehouse instead of a factory?", a: "Yes — both sectors allow warehousing within the broader industrial use designation. Ecotech 11 sees more standalone Grade-A warehousing demand currently. Confirm with GNIDA's permitted-use list for your specific plot." },
+      { q: "What about the upcoming metro?", a: "The proposed Aqua Line extension towards Ecotech sectors is under planning. Timeline remains uncertain — do not price metro proximity into your acquisition decision today." },
+      { q: "Which has more available inventory in 2026?", a: "Ecotech 12 has marginally more active resale listings. Ecotech 11 inventory tightens through the year as 3PL and large-format demand absorbs available plots. Off-market deals are common in both — direct relationships matter." },
+    ],
+    relatedSlugs: ["ecotech-industrial-sectors-greater-noida", "industrial-plots-greater-noida", "warehouse-logistics-land-greater-noida"],
+  },
 ];
 
 export const getSeoPage = (slug: string): SeoPage | undefined =>
