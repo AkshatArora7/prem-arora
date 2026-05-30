@@ -54,7 +54,7 @@ export default function HomePage() {
             </div>
 
             {/* RIGHT — photo card with floating chips */}
-            <div className="relative">
+            <div className="relative w-full max-w-[520px] mx-auto lg:max-w-none lg:mx-0">
               <div className="bg-white/95 backdrop-blur-sm rounded-[28px] p-5 md:p-6 shadow-[0_30px_80px_-25px_rgba(75,55,35,0.45)]">
                 <div className="flex flex-wrap gap-2 mb-5">
                   <Link href="/seo/gnida-plot-allotment-process" className="px-4 py-1.5 rounded-full bg-white border border-[#e5dccb] text-[0.74rem] text-[#3a2e22] font-medium hover:bg-[#f5efe2] hover:border-[#c9b890] transition">GNIDA</Link>
